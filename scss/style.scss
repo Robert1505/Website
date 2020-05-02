@@ -1,0 +1,24 @@
+body {
+    margin : 0;
+    padding : 0;
+}
+#hero-section {
+    background : url("../img/background.jpeg");
+    height : 100vh;
+
+    header{
+        nav{
+            ul{
+                li{
+                    float : left;
+                    list-style : none;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}
+#mission-section {
+    background : red;
+}
+

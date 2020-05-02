@@ -5,12 +5,8 @@ body {
 #hero-section {
   background: url("../img/background.jpeg");
   height: 100vh; }
-  #hero-section header nav ul li {
-    float: left;
-    list-style: none;
-    margin-right: 10px; }
 
 #mission-section {
-  background: red; }
+  background: green; }
 
 /*# sourceMappingURL=style.css.map */
