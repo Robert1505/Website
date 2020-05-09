@@ -7,15 +7,35 @@ body {
     height : 100vh;
 
     header{
-        div{
-            
-        }
         nav{
             ul{
                 li{
                     float : left;
                     list-style : none;
                     margin-right: 10px;
+                }
+            }
+        }
+        .social-media{
+            display: flex;
+            justify-content: flex-end;
+
+            &-button{
+                float : left;
+                margin-right : 10px;
+            }
+            button{
+                font-family : 'Montserrat', sans-serif;
+                background : transparent;
+                font-weight : 400;
+                border : black solid 1px;
+                height : 40px;
+                width : 145px;
+                font-size : 11px;
+                text-transform : uppercase;
+
+                .fa-paper-plane-o{
+                    margin-left : 5px;
                 }
             }
         }
@@ -26,7 +46,6 @@ body {
     height : 10vh;
 }
 #benefits-background{
-    background: url("../img/build-smart.jpg");
     height : 70vh;
 }
 #colaborate-background {

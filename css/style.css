@@ -9,13 +9,29 @@ body {
     float: left;
     list-style: none;
     margin-right: 10px; }
+  #hero-section header .social-media {
+    display: flex;
+    justify-content: flex-end; }
+    #hero-section header .social-media-button {
+      float: left;
+      margin-right: 10px; }
+    #hero-section header .social-media button {
+      font-family: 'Montserrat', sans-serif;
+      background: transparent;
+      font-weight: 400;
+      border: black solid 1px;
+      height: 40px;
+      width: 145px;
+      font-size: 11px;
+      text-transform: uppercase; }
+      #hero-section header .social-media button .fa-paper-plane-o {
+        margin-left: 5px; }
 
 #firstdiv {
   background: url("../img/our-main-mission.jpg");
   height: 10vh; }
 
 #benefits-background {
-  background: url("../img/build-smart.jpg");
   height: 70vh; }
 
 #colaborate-background {
