@@ -26,17 +26,97 @@ body {
       text-transform: uppercase; }
       #hero-section header .social-media button .fa-paper-plane-o {
         margin-left: 5px; }
+  #hero-section .about-us-button {
+    font-family: 'Montserrat', sans-serif;
+    background: #1996CE;
+    font-weight: 600;
+    border: #1996CE solid 1px;
+    height: 40px;
+    width: 160px;
+    font-size: 15px;
+    text-transform: capitalize; }
+  #hero-section .presentation-button {
+    font-family: 'Montserrat', sans-serif;
+    background: transparent;
+    font-weight: 600;
+    border: white solid 1px;
+    height: 40px;
+    width: 160px;
+    font-size: 15px;
+    text-transform: capitalize; }
 
-#firstdiv {
+#mission-section #firstdiv {
   height: 10vh; }
+  #mission-section #firstdiv button {
+    font-family: 'Montserrat', sans-serif;
+    background: transparent;
+    font-weight: 600;
+    border: white solid 1px;
+    height: 30px;
+    width: 130px;
+    font-size: 11px;
+    text-transform: uppercase; }
+
+#about-section .about-us-button-2 {
+  font-family: 'Montserrat', sans-serif;
+  background: #71B347;
+  font-weight: 600;
+  border: #71B347 solid 1px;
+  height: 40px;
+  width: 145px;
+  font-size: 13px;
+  text-transform: capitalize;
+  color: white; }
 
 #benefits-background {
   height: 70vh; }
 
-#colaborate-background {
+#colaborate-section #colaborate-background {
   height: 100vh; }
+#colaborate-section #colaborate .more-about-us-button {
+  font-family: 'Montserrat', sans-serif;
+  background: #1A98CB;
+  font-weight: 600;
+  border: #1A98CB solid 1px;
+  height: 40px;
+  width: 160px;
+  font-size: 13px;
+  text-transform: capitalize;
+  color: white; }
 
-#services-background {
+#services-section #services-background {
   height: 100vh; }
+#services-section .services-button {
+  font-family: 'Montserrat', sans-serif;
+  background: #71B347;
+  font-weight: 600;
+  border: #71B347 solid 1px;
+  height: 40px;
+  width: 150px;
+  font-size: 13px;
+  text-transform: capitalize;
+  color: white; }
+
+#request-section button {
+  font-family: 'Montserrat', sans-serif;
+  background: transparent;
+  font-weight: 400;
+  border: white solid 1px;
+  height: 40px;
+  width: 140px;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: black; }
+
+#footer-section button {
+  font-family: 'Montserrat', sans-serif;
+  background: #71B347;
+  font-weight: 400;
+  border: #71B347 solid 1px;
+  height: 40px;
+  width: 140px;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: white; }
 
 /*# sourceMappingURL=style.css.map */
