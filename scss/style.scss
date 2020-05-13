@@ -153,4 +153,10 @@ body {
         text-transform : uppercase;
         color : white;
     }
+    .external-social-media-button{
+        display: flex;
+        justify-content: flex-end;
+        margin-right : 10px;
+        float : left;
+    }
 }
