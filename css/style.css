@@ -3,7 +3,7 @@ body {
   padding: 0; }
 
 #hero-section {
-  background: url("../img/background.jpeg");
+  background: url("../img/new-background.jpg");
   height: 100vh; }
   #hero-section header nav ul li {
     float: left;
@@ -36,12 +36,13 @@ body {
       text-transform: uppercase;
       font-family: "Montserrat", sans-serif; }
     #hero-section .title-and-buttons .second-title {
-      font-size: 30px;
+      font-size: 60px;
       color: white;
       text-transform: uppercase;
+      font-weight: 600;
       font-family: "Montserrat", sans-serif; }
     #hero-section .title-and-buttons .third-title {
-      font-size: 13px;
+      font-size: 15px;
       color: white;
       font-family: "Lora", serif; }
     #hero-section .title-and-buttons .about-us-button {
@@ -55,7 +56,7 @@ body {
       width: 160px;
       font-size: 13px; }
     #hero-section .title-and-buttons .presentation-button {
-      font-family: 'Montserrat', sans-serif;
+      font-family: "Montserrat", sans-serif;
       background: transparent;
       font-weight: 600;
       border: white solid 1px;
@@ -67,7 +68,7 @@ body {
 #mission-section #firstdiv {
   height: 10vh; }
   #mission-section #firstdiv button {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     background: transparent;
     font-weight: 600;
     border: white solid 1px;
@@ -77,7 +78,7 @@ body {
     text-transform: uppercase; }
 
 #about-section .about-us-button-2 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   background: #71B347;
   font-weight: 600;
   border: #71B347 solid 1px;
@@ -92,12 +93,11 @@ body {
 
 #colaborate-section #colaborate-background {
   height: 100vh; }
-
 #colaborate-section #colaborate .more-about-us-button {
-  font-family: 'Montserrat', sans-serif;
-  background: #1A98CB;
+  font-family: "Montserrat", sans-serif;
+  background: #1996CE;
   font-weight: 600;
-  border: #1A98CB solid 1px;
+  border: #1996CE solid 1px;
   height: 40px;
   width: 160px;
   font-size: 13px;
@@ -106,9 +106,8 @@ body {
 
 #services-section #services-background {
   height: 100vh; }
-
 #services-section .services-button {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   background: #71B347;
   font-weight: 600;
   border: #71B347 solid 1px;
@@ -119,7 +118,7 @@ body {
   color: white; }
 
 #request-section button {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   background: transparent;
   font-weight: 400;
   border: white solid 1px;
@@ -130,7 +129,7 @@ body {
   color: black; }
 
 #footer-section button {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   background: #71B347;
   font-weight: 400;
   border: #71B347 solid 1px;
@@ -139,9 +138,10 @@ body {
   font-size: 13px;
   text-transform: uppercase;
   color: white; }
-
 #footer-section .external-social-media-button {
   display: flex;
   justify-content: flex-end;
   margin-right: 10px;
   float: left; }
+
+/*# sourceMappingURL=style.css.map */
