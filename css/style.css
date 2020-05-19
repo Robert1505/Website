@@ -56,37 +56,40 @@ body {
       width: 160px;
       font-size: 13px; }
     #hero-section .title-and-buttons .presentation-button {
-      font-family: "Montserrat", sans-serif;
       background: transparent;
+      border: white;
+      text-transform: capitalize;
+      font-family: "Montserrat", sans-serif;
       font-weight: 600;
-      border: white solid 1px;
+      border: solid 1px;
       height: 40px;
       width: 160px;
-      font-size: 15px;
-      text-transform: capitalize; }
+      font-size: 13px; }
 
 #mission-section #firstdiv {
   height: 10vh; }
   #mission-section #firstdiv button {
-    font-family: "Montserrat", sans-serif;
     background: transparent;
+    text-transform: uppercase;
+    border: white;
+    font-family: "Montserrat", sans-serif;
     font-weight: 600;
-    border: white solid 1px;
-    height: 30px;
-    width: 130px;
-    font-size: 11px;
-    text-transform: uppercase; }
+    border: solid 1px;
+    height: 40px;
+    width: 160px;
+    font-size: 13px; }
 
 #about-section .about-us-button-2 {
-  font-family: "Montserrat", sans-serif;
   background: #71B347;
-  font-weight: 600;
-  border: #71B347 solid 1px;
-  height: 40px;
-  width: 145px;
-  font-size: 13px;
   text-transform: capitalize;
-  color: white; }
+  color: white;
+  border: #71B347;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  border: solid 1px;
+  height: 40px;
+  width: 160px;
+  font-size: 13px; }
 
 #benefits-background {
   height: 70vh; }
@@ -94,50 +97,54 @@ body {
 #colaborate-section #colaborate-background {
   height: 100vh; }
 #colaborate-section #colaborate .more-about-us-button {
-  font-family: "Montserrat", sans-serif;
   background: #1996CE;
+  border: #1996CE;
+  text-transform: capitalize;
+  color: white;
+  font-family: "Montserrat", sans-serif;
   font-weight: 600;
-  border: #1996CE solid 1px;
+  border: solid 1px;
   height: 40px;
   width: 160px;
-  font-size: 13px;
-  text-transform: capitalize;
-  color: white; }
+  font-size: 13px; }
 
 #services-section #services-background {
   height: 100vh; }
 #services-section .services-button {
-  font-family: "Montserrat", sans-serif;
   background: #71B347;
-  font-weight: 600;
-  border: #71B347 solid 1px;
-  height: 40px;
-  width: 150px;
-  font-size: 13px;
+  border: #71B347;
   text-transform: capitalize;
-  color: white; }
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  border: solid 1px;
+  height: 40px;
+  width: 160px;
+  font-size: 13px; }
 
 #request-section button {
-  font-family: "Montserrat", sans-serif;
   background: transparent;
-  font-weight: 400;
-  border: white solid 1px;
-  height: 40px;
-  width: 140px;
-  font-size: 13px;
+  border: white;
   text-transform: uppercase;
-  color: black; }
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  border: solid 1px;
+  height: 40px;
+  width: 160px;
+  font-size: 13px; }
 
 #footer-section button {
-  font-family: "Montserrat", sans-serif;
   background: #71B347;
-  font-weight: 400;
-  border: #71B347 solid 1px;
-  height: 40px;
-  width: 140px;
-  font-size: 13px;
+  border: #71B347;
   text-transform: uppercase;
-  color: white; }
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  border: solid 1px;
+  height: 40px;
+  width: 160px;
+  font-size: 13px; }
 #footer-section .external-social-media-button {
   display: flex;
   justify-content: flex-end;

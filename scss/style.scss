@@ -78,14 +78,10 @@ body {
             @include button;
         }
         .presentation-button{
-            font-family: $primary-font;
             background : transparent;
-            font-weight: 600;
-            border : white solid 1px;
-            height : 40px;
-            width : 160px;
-            font-size : 15px;
+            border : white;
             text-transform : capitalize;
+            @include button;
         }
     }
 }
@@ -94,28 +90,20 @@ body {
         height : 10vh;
 
         button{
-            font-family : $primary-font;
             background : transparent;
-            font-weight : 600;
-            border : white solid 1px;
-            height : 30px;
-            width : 130px;
-            font-size : 11px;
             text-transform : uppercase;
+            border : white;
+            @include button;
         }
     }
 }
 #about-section{
     .about-us-button-2{
-        font-family: $primary-font;
         background : $green;
-        font-weight: 600;
-        border : $green solid 1px;
-        height : 40px;
-        width : 145px;
-        font-size : 13px;
         text-transform : capitalize;
         color : white;
+        border : $green;
+        @include button;
     }
 }
 #benefits-background{
@@ -127,15 +115,11 @@ body {
     }
     #colaborate{
         .more-about-us-button{
-            font-family: $primary-font;
             background : $blue;
-            font-weight: 600;
-            border : $blue solid 1px;
-            height : 40px;
-            width : 160px;
-            font-size : 13px;
+            border : $blue;
             text-transform : capitalize;
             color : white;
+            @include button;
         }
     }
 }
@@ -145,41 +129,29 @@ body {
     }
 
     .services-button{
-        font-family: $primary-font;
         background : $green;
-        font-weight: 600;
-        border : $green solid 1px;
-        height : 40px;
-        width : 150px;
-        font-size : 13px;
+        border : $green;
         text-transform : capitalize;
         color : white;
+        @include button;
     }
 }
 #request-section{
     button{
-        font-family: $primary-font;
         background : transparent;
-        font-weight: 400;
-        border : white solid 1px;
-        height : 40px;
-        width : 140px;
-        font-size : 13px;
+        border : white;
         text-transform : uppercase;
         color : black;
+        @include button;
     }
 }
 #footer-section{
     button{
-        font-family: $primary-font;
         background : $green;
-        font-weight: 400;
-        border : $green solid 1px;
-        height : 40px;
-        width : 140px;
-        font-size : 13px;
+        border : $green;
         text-transform : uppercase;
         color : white;
+        @include button;
     }
     .external-social-media-button{
         display: flex;
