@@ -1,4 +1,4 @@
-const {src,dest} = require('gulp');
+const {src,dest,watch} = require('gulp');
 const sass = require('gulp-sass');
 
 function css(){
@@ -7,4 +7,9 @@ function css(){
     .pipe(dest("./css"));
 }
 
+function watchCode(){
+    watch("./scss/style.scss" , css);
+}
+
 exports.css = css;
+exports.watchCode = watchCode;

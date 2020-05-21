@@ -22,7 +22,8 @@
     "bootstrap": "^4.4.1",
     "font-awesome": "^4.7.0",
     "gulp": "^4.0.2",
-    "gulp-scss": "^1.4.0"
+    "gulp-scss": "^1.4.0",
+    "jquery": "^3.5.1"
   },
   "devDependencies": {
     "gulp-sass": "^4.1.0",

@@ -49,10 +49,15 @@ body {
         }
     }
     .title-and-buttons{
-        display : flex;
+        display : flex;  
+        text-align: center;
         justify-content : center;
         flex-direction : column;
 
+        .buttons{
+            margin : 0 auto;
+            margin-top : 20px;
+        }
         .first-title{
             font-size : 13px;
             color : white;
@@ -75,12 +80,14 @@ body {
             background : $blue;
             text-transform : capitalize;
             border-color : transparent !important;
+            margin-right : 10px;
             @include button;
         }
         .presentation-button{
             background : transparent;
-            border : white;
+            border-color : white !important;
             text-transform : capitalize;
+            color : white;
             @include button;
         }
     }

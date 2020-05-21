@@ -28,8 +28,12 @@ body {
         margin-left: 5px; }
   #hero-section .title-and-buttons {
     display: flex;
+    text-align: center;
     justify-content: center;
     flex-direction: column; }
+    #hero-section .title-and-buttons .buttons {
+      margin: 0 auto;
+      margin-top: 20px; }
     #hero-section .title-and-buttons .first-title {
       font-size: 13px;
       color: white;
@@ -49,6 +53,7 @@ body {
       background: #1996CE;
       text-transform: capitalize;
       border-color: transparent !important;
+      margin-right: 10px;
       font-family: "Montserrat", sans-serif;
       font-weight: 600;
       border: solid 1px;
@@ -57,8 +62,9 @@ body {
       font-size: 13px; }
     #hero-section .title-and-buttons .presentation-button {
       background: transparent;
-      border: white;
+      border-color: white !important;
       text-transform: capitalize;
+      color: white;
       font-family: "Montserrat", sans-serif;
       font-weight: 600;
       border: solid 1px;
@@ -96,6 +102,7 @@ body {
 
 #colaborate-section #colaborate-background {
   height: 100vh; }
+
 #colaborate-section #colaborate .more-about-us-button {
   background: #1996CE;
   border: #1996CE;
@@ -110,6 +117,7 @@ body {
 
 #services-section #services-background {
   height: 100vh; }
+
 #services-section .services-button {
   background: #71B347;
   border: #71B347;
@@ -145,10 +153,9 @@ body {
   height: 40px;
   width: 160px;
   font-size: 13px; }
+
 #footer-section .external-social-media-button {
   display: flex;
   justify-content: flex-end;
   margin-right: 10px;
   float: left; }
-
-/*# sourceMappingURL=style.css.map */
