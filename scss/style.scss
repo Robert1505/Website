@@ -10,15 +10,20 @@ $secondary-font : 'Lora', serif;;
     width : 160px;
     font-size : 13px;
 }
+@mixin no-padding{
+    padding-left : 0;
+    padding-right : 0;
+}
 body {
     margin : 0;
     padding : 0;
 }
 #hero-section {
-    background : url("../img/new-background.jpg");
-    height : 100vh;
 
     header{
+        position : absolute;
+        z-index : 2;
+
         nav{
             ul{
                 li{
@@ -182,8 +187,34 @@ body {
     }
 }
 #mission-section{
+    display : flex;
+    flex-wrap : wrap;
+
+    div{
+        @include no-padding;
+
+        .text{
+            padding : 20px 10px;
+
+            .numbers{
+                font-size : 50px;
+                font-weight : 600;
+                color : rgba(77,77,77,0.3);
+                position : absolute;
+                z-index : -1;
+                left : 0;
+                bottom : 0;
+            }
+            span{
+                font-weight : 600;
+                display: block;
+                padding-bottom: 10px;
+            }
+        }
+    }
     #firstdiv {
-        height : 10vh;
+        background: url("../img/our-main-mission.jpg");
+        height : 100%;
 
         button{
             background : transparent;

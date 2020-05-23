@@ -2,9 +2,9 @@ body {
   margin: 0;
   padding: 0; }
 
-#hero-section {
-  background: url("../img/new-background.jpg");
-  height: 100vh; }
+#hero-section header {
+  position: absolute;
+  z-index: 2; }
   #hero-section header nav ul li {
     float: left;
     list-style: none;
@@ -30,154 +30,178 @@ body {
       font-size: 13px; }
       #hero-section header .social-media button .fa-paper-plane-o {
         margin-left: 5px; }
-  #hero-section .title-and-buttons {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    flex-direction: column; }
-    #hero-section .title-and-buttons .buttons {
-      margin: 0 auto;
-      margin-top: 20px; }
-    #hero-section .title-and-buttons .first-title {
-      font-size: 13px;
-      color: white;
-      text-transform: uppercase;
-      font-family: "Montserrat", sans-serif; }
-    #hero-section .title-and-buttons .second-title {
-      font-size: 60px;
-      color: white;
-      text-transform: uppercase;
-      font-weight: 600;
-      font-family: "Montserrat", sans-serif; }
-    #hero-section .title-and-buttons .third-title {
-      font-size: 15px;
-      color: white;
-      font-family: "Lora", serif; }
-    #hero-section .title-and-buttons .about-us-button {
-      background: #71B347;
-      text-transform: capitalize;
-      border-color: transparent !important;
-      margin-right: 10px;
-      font-family: "Montserrat", sans-serif;
-      font-weight: 600;
-      border: solid 1px;
-      height: 40px;
-      width: 160px;
-      font-size: 13px; }
-    #hero-section .title-and-buttons .presentation-button {
-      background: #1996CE;
-      border-color: transparent !important;
-      text-transform: capitalize;
-      color: black;
-      font-family: "Montserrat", sans-serif;
-      font-weight: 600;
-      border: solid 1px;
-      height: 40px;
-      width: 160px;
-      font-size: 13px; }
-  #hero-section .title-and-buttons-2 {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    flex-direction: column; }
-    #hero-section .title-and-buttons-2 .buttons {
-      margin: 0 auto;
-      margin-top: 20px; }
-    #hero-section .title-and-buttons-2 .first-title {
-      font-size: 13px;
-      color: white;
-      text-transform: uppercase;
-      font-family: "Montserrat", sans-serif; }
-    #hero-section .title-and-buttons-2 .second-title {
-      font-size: 60px;
-      color: white;
-      text-transform: uppercase;
-      font-weight: 600;
-      font-family: "Montserrat", sans-serif; }
-    #hero-section .title-and-buttons-2 .third-title {
-      font-size: 15px;
-      color: white;
-      font-family: "Lora", serif; }
-    #hero-section .title-and-buttons-2 .mission-button {
-      background: #1996CE;
-      text-transform: capitalize;
-      border-color: transparent !important;
-      margin-right: 10px;
-      font-family: "Montserrat", sans-serif;
-      font-weight: 600;
-      border: solid 1px;
-      height: 40px;
-      width: 160px;
-      font-size: 13px; }
-    #hero-section .title-and-buttons-2 .award-button {
-      background: #71B347;
-      border-color: transparent !important;
-      text-transform: capitalize;
-      color: black;
-      font-family: "Montserrat", sans-serif;
-      font-weight: 600;
-      border: solid 1px;
-      height: 40px;
-      width: 160px;
-      font-size: 13px; }
-  #hero-section .title-and-buttons-3 {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    flex-direction: column; }
-    #hero-section .title-and-buttons-3 .buttons {
-      margin: 0 auto;
-      margin-top: 20px; }
-    #hero-section .title-and-buttons-3 .first-title {
-      font-size: 13px;
-      color: white;
-      text-transform: uppercase;
-      font-family: "Montserrat", sans-serif; }
-    #hero-section .title-and-buttons-3 .second-title {
-      font-size: 60px;
-      color: white;
-      text-transform: uppercase;
-      font-weight: 600;
-      font-family: "Montserrat", sans-serif; }
-    #hero-section .title-and-buttons-3 .third-title {
-      font-size: 15px;
-      color: white;
-      font-family: "Lora", serif; }
-    #hero-section .title-and-buttons-3 .services-button {
-      background: #71B347;
-      text-transform: capitalize;
-      border-color: transparent !important;
-      margin-right: 10px;
-      font-family: "Montserrat", sans-serif;
-      font-weight: 600;
-      border: solid 1px;
-      height: 40px;
-      width: 160px;
-      font-size: 13px; }
-    #hero-section .title-and-buttons-3 .contact-button {
-      background: #1996CE;
-      border-color: transparent !important;
-      text-transform: capitalize;
-      color: black;
-      font-family: "Montserrat", sans-serif;
-      font-weight: 600;
-      border: solid 1px;
-      height: 40px;
-      width: 160px;
-      font-size: 13px; }
 
-#mission-section #firstdiv {
-  height: 10vh; }
-  #mission-section #firstdiv button {
-    background: transparent;
+#hero-section .title-and-buttons {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column; }
+  #hero-section .title-and-buttons .buttons {
+    margin: 0 auto;
+    margin-top: 20px; }
+  #hero-section .title-and-buttons .first-title {
+    font-size: 13px;
+    color: white;
     text-transform: uppercase;
-    border: white;
+    font-family: "Montserrat", sans-serif; }
+  #hero-section .title-and-buttons .second-title {
+    font-size: 60px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif; }
+  #hero-section .title-and-buttons .third-title {
+    font-size: 15px;
+    color: white;
+    font-family: "Lora", serif; }
+  #hero-section .title-and-buttons .about-us-button {
+    background: #71B347;
+    text-transform: capitalize;
+    border-color: transparent !important;
+    margin-right: 10px;
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
     border: solid 1px;
     height: 40px;
     width: 160px;
     font-size: 13px; }
+  #hero-section .title-and-buttons .presentation-button {
+    background: #1996CE;
+    border-color: transparent !important;
+    text-transform: capitalize;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    border: solid 1px;
+    height: 40px;
+    width: 160px;
+    font-size: 13px; }
+
+#hero-section .title-and-buttons-2 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column; }
+  #hero-section .title-and-buttons-2 .buttons {
+    margin: 0 auto;
+    margin-top: 20px; }
+  #hero-section .title-and-buttons-2 .first-title {
+    font-size: 13px;
+    color: white;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif; }
+  #hero-section .title-and-buttons-2 .second-title {
+    font-size: 60px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif; }
+  #hero-section .title-and-buttons-2 .third-title {
+    font-size: 15px;
+    color: white;
+    font-family: "Lora", serif; }
+  #hero-section .title-and-buttons-2 .mission-button {
+    background: #1996CE;
+    text-transform: capitalize;
+    border-color: transparent !important;
+    margin-right: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    border: solid 1px;
+    height: 40px;
+    width: 160px;
+    font-size: 13px; }
+  #hero-section .title-and-buttons-2 .award-button {
+    background: #71B347;
+    border-color: transparent !important;
+    text-transform: capitalize;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    border: solid 1px;
+    height: 40px;
+    width: 160px;
+    font-size: 13px; }
+
+#hero-section .title-and-buttons-3 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column; }
+  #hero-section .title-and-buttons-3 .buttons {
+    margin: 0 auto;
+    margin-top: 20px; }
+  #hero-section .title-and-buttons-3 .first-title {
+    font-size: 13px;
+    color: white;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif; }
+  #hero-section .title-and-buttons-3 .second-title {
+    font-size: 60px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif; }
+  #hero-section .title-and-buttons-3 .third-title {
+    font-size: 15px;
+    color: white;
+    font-family: "Lora", serif; }
+  #hero-section .title-and-buttons-3 .services-button {
+    background: #71B347;
+    text-transform: capitalize;
+    border-color: transparent !important;
+    margin-right: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    border: solid 1px;
+    height: 40px;
+    width: 160px;
+    font-size: 13px; }
+  #hero-section .title-and-buttons-3 .contact-button {
+    background: #1996CE;
+    border-color: transparent !important;
+    text-transform: capitalize;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    border: solid 1px;
+    height: 40px;
+    width: 160px;
+    font-size: 13px; }
+
+#mission-section {
+  display: flex;
+  flex-wrap: wrap; }
+  #mission-section div {
+    padding-left: 0;
+    padding-right: 0; }
+    #mission-section div .text {
+      padding: 20px 10px; }
+      #mission-section div .text .numbers {
+        font-size: 50px;
+        font-weight: 600;
+        color: rgba(77, 77, 77, 0.3);
+        position: absolute;
+        z-index: -1;
+        left: 0;
+        bottom: 0; }
+      #mission-section div .text span {
+        font-weight: 600;
+        display: block;
+        padding-bottom: 10px; }
+  #mission-section #firstdiv {
+    background: url("../img/our-main-mission.jpg");
+    height: 100%; }
+    #mission-section #firstdiv button {
+      background: transparent;
+      text-transform: uppercase;
+      border: white;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 600;
+      border: solid 1px;
+      height: 40px;
+      width: 160px;
+      font-size: 13px; }
 
 #about-section .about-us-button-2 {
   background: #71B347;
