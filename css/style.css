@@ -180,7 +180,7 @@ body {
       #mission-section div .text .numbers {
         font-size: 50px;
         font-weight: 600;
-        color: rgba(77, 77, 77, 0.3);
+        color: rgba(77, 77, 77, 0.15);
         position: absolute;
         z-index: -1;
         left: 0;
@@ -203,50 +203,76 @@ body {
       width: 160px;
       font-size: 13px; }
 
-#about-section .about-us-button-2 {
-  background: #71B347;
-  text-transform: capitalize;
-  color: white;
-  border: #71B347;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 600;
-  border: solid 1px;
-  height: 40px;
-  width: 160px;
-  font-size: 13px; }
+#about-section #about-text-button {
+  text-align: center;
+  font-family: "Lora", serif;
+  background: #F8F8F8; }
+  #about-section #about-text-button .title {
+    font-size: 30px;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    padding-left: 350px;
+    padding-right: 350px; }
+  #about-section #about-text-button .text {
+    font-size: 13px;
+    padding-bottom: 30px;
+    padding-left: 400px;
+    padding-right: 400px; }
+  #about-section #about-text-button .about-us-button-2 {
+    background: #71B347;
+    text-transform: capitalize;
+    color: white;
+    border: #71B347;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    border: solid 1px;
+    height: 40px;
+    width: 160px;
+    font-size: 13px;
+    margin-bottom: 120px; }
 
 #benefits-background {
   height: 70vh; }
 
 #colaborate-section #colaborate-background {
-  height: 100vh; }
+  height: 100vh;
+  padding-left: 0;
+  padding-right: 0; }
 
-#colaborate-section #colaborate .more-about-us-button {
-  background: #1996CE;
-  border: #1996CE;
-  text-transform: capitalize;
-  color: white;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 600;
-  border: solid 1px;
-  height: 40px;
-  width: 160px;
-  font-size: 13px; }
+#colaborate-section #colaborate {
+  padding-left: 0;
+  padding-right: 0; }
+  #colaborate-section #colaborate .more-about-us-button {
+    background: #1996CE;
+    border: #1996CE;
+    text-transform: capitalize;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    border: solid 1px;
+    height: 40px;
+    width: 160px;
+    font-size: 13px; }
 
 #services-section #services-background {
+  padding-left: 0;
+  padding-right: 0;
   height: 100vh; }
 
-#services-section .services-button {
-  background: #71B347;
-  border: #71B347;
-  text-transform: capitalize;
-  color: white;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 600;
-  border: solid 1px;
-  height: 40px;
-  width: 160px;
-  font-size: 13px; }
+#services-section #services-text-button {
+  padding-left: 0;
+  padding-right: 0; }
+  #services-section #services-text-button .services-button {
+    background: #71B347;
+    border: #71B347;
+    text-transform: capitalize;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    border: solid 1px;
+    height: 40px;
+    width: 160px;
+    font-size: 13px; }
 
 #request-section button {
   background: transparent;

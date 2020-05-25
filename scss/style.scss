@@ -199,7 +199,7 @@ body {
             .numbers{
                 font-size : 50px;
                 font-weight : 600;
-                color : rgba(77,77,77,0.3);
+                color : rgba(77,77,77,0.15);
                 position : absolute;
                 z-index : -1;
                 left : 0;
@@ -225,12 +225,35 @@ body {
     }
 }
 #about-section{
-    .about-us-button-2{
-        background : $green;
-        text-transform : capitalize;
-        color : white;
-        border : $green;
-        @include button;
+
+    #about-text-button{
+        text-align: center;
+        font-family: $secondary-font;
+        background: #F8F8F8;
+
+        .title{
+            font-size: 30px;
+            padding-top: 80px;
+            padding-bottom: 30px;
+            padding-left: 350px;
+            padding-right: 350px;
+        }
+        .text{
+            font-size: 13px;
+            padding-bottom: 30px;
+            padding-left: 400px;
+            padding-right: 400px;
+        }
+        .about-us-button-2{
+            background : $green;
+            text-transform : capitalize;
+            color : white;
+            border : $green;
+            @include button;
+            margin-bottom: 120px;
+        }
+    }
+    #sponsor{
     }
 }
 #benefits-background{
@@ -239,8 +262,11 @@ body {
 #colaborate-section {
     #colaborate-background{
         height : 100vh;
+        @include no-padding;
     }
     #colaborate{
+        @include no-padding;
+
         .more-about-us-button{
             background : $blue;
             border : $blue;
@@ -252,15 +278,21 @@ body {
 }
 #services-section{
     #services-background {
+        @include no-padding;
         height : 100vh;
     }
 
-    .services-button{
-        background : $green;
-        border : $green;
-        text-transform : capitalize;
-        color : white;
-        @include button;
+    #services-text-button{
+        @include no-padding;
+        
+        .services-button{
+            background : $green;
+            border : $green;
+            text-transform : capitalize;
+            color : white;
+            @include button;
+        }
+    
     }
 }
 #request-section{
