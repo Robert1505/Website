@@ -5,6 +5,7 @@
     <script src = "js/jquery.min.js"></script>
     <script src = "js/bootstrap.min.js"></script>
     <script>$('.carousel').carousel()</script>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
     <link href = "css/font-awesome.min.css" rel = "stylesheet"/>
@@ -41,17 +42,17 @@
           </ul>
         </nav>
         <div class = "col-lg-4 col-md-4 col-sm-4 social-media">
-          <div class = "social-media-button">
-            <i class="fa fa-search" aria-hidden="true"></i>
+          <div class = "social-media-button" id = "search-button">
+            <i class="fa fa-search fa-lg" aria-hidden="true"></i>
           </div>
           <div class = "social-media-button">
-            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <i class="fa fa-facebook fa-sm" aria-hidden="true"></i>
           </div>
           <div class = "social-media-button">
-            <i class="fa fa-twitter" aria-hidden="true"></i>
+            <i class="fa fa-twitter fa-sm" aria-hidden="true"></i>
           </div>
           <div class = "social-media-button">
-            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <i class="fa fa-instagram fa-sm" aria-hidden="true"></i>
           </div>
           <button>
             Send request
@@ -228,22 +229,22 @@
       </div>
       <div class = "row" id = "sponsor">
         <div class = "col-lg-1 offset-lg-3 col-md-1 offset-md-3 col-sm-1 offset-sm-3">
-          <img class = "img-fluid" src = "img/sponsor1.png"/>
+          <img class = "img-fluid" src = "img/sponsor1.png" width="250" height="25"/>
         </div>
         <div class = "col-lg-1 col-md-1 col-sm-1">
-          <img class = "img-fluid" src = "img/sponsor2.png"/>
+          <img class = "img-fluid" src = "img/sponsor2.png" width="150" height="25"/>
         </div>
         <div class = "col-lg-1 col-md-1 col-sm-1">
-          <img class = "img-fluid" src = "img/sponsor3.png"/>
+          <img class = "img-fluid" src = "img/sponsor3.png" width="150" height="10"/>
         </div>
         <div class = "col-lg-1 col-md-1 col-sm-1">
-          <img class = "img-fluid" src = "img/sponsor4.png"/>
+          <img class = "img-fluid" src = "img/sponsor4.png" width="150" height="10"/>
         </div>
         <div class = "col-lg-1 col-md-1 col-sm-1">
-          <img class = "img-fluid" src = "img/sponsor5.png"/>
+          <img class = "img-fluid" src = "img/sponsor5.png" width="150" height="10"/>
         </div>
         <div class = "col-lg-1 col-md-1 col-sm-1">
-          <img class = "img-fluid" src = "img/sponsor6.png"/>
+          <img class = "img-fluid" src = "img/sponsor6.png" width="150" height="10"/>
         </div>
       </div>
     </section>
@@ -251,22 +252,35 @@
 
     <!-- BEGINING BENEFITS SECTION -->
     <section class = "benefits-section">
-      <div class = "col-lg-12 col-md-12 col-sm-12" id = "benefits-background">
-        BUILD SMART AND EFFECTIVE MANAGEMENT
+      <div class = "col-lg-12 col-md-12 col-sm-12" id = "benefits-title-text">
+        <span>
+          BUILD SMART AND EFFECTIVE MANAGEMENT
+        </span>
         But I must explain to you how all this mistaken idea
+      </div>
+      <div class = "col-lg-12 col-md-12 col-sm-12" id = "benefits-background">
         <img class = "img-fluid" src = "img/build-smart.jpg"/>
       </div>
       <div class = "row">
-        <div class = "col-lg-2 offset-lg-3 col-md-2 offset-md-3 col-sm-2 offset-sm-3">
-          TAX CONSULTING
+        <div class = "col-lg-2 offset-lg-3 col-md-2 offset-md-3 col-sm-2 offset-sm-3 text1">
+          <i class="fa fa-handshake-o icons fa-lg" aria-hidden="true"></i>
+          <span>
+            Tax Consulting
+          </span>
           I must explain to you how all this mistaken idea of denouncing pleasure nand praising
         </div>
-        <div class = "col-lg-2 col-md-2 col-sm-2">
-          CONDUCT NEGOTIATIONS
+        <div class = "col-lg-2 col-md-2 col-sm-2 text2">
+          <i class="fa fa-user-circle-o icons fa-lg" aria-hidden="true"></i>
+          <span>
+            Conduct Negotiations
+          </span>
           I must explain to you how all this mistaken idea of denouncing pleasure nand praising
         </div>
-        <div class = "col-lg-2 col-md-2 col-sm-2">
-          COMMERCIAL PRACTICE
+        <div class = "col-lg-2 col-md-2 col-sm-2 text3">
+          <i class="fa fa-gg-circle icons fa-50" aria-hidden="true"></i>
+          <span>
+            Commercial Practice
+          </span>
           I must explain to you how all this mistaken idea of denouncing pleasure nand praising
         </div>
       </div>

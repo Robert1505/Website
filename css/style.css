@@ -14,14 +14,19 @@ body {
     display: flex;
     justify-content: flex-end;
     color: white; }
+    #hero-section header .social-media #search-button {
+      margin-right: 30px; }
     #hero-section header .social-media-button {
       float: left;
-      margin-right: 10px; }
+      margin-right: 13px;
+      margin-top: 28px; }
     #hero-section header .social-media button {
       background: transparent;
       text-transform: uppercase;
       border: white !important;
       color: white;
+      margin-left: 35px;
+      margin-top: 20px;
       font-family: "Montserrat", sans-serif;
       font-weight: 600;
       border: solid 1px;
@@ -231,8 +236,57 @@ body {
     font-size: 13px;
     margin-bottom: 120px; }
 
-#benefits-background {
+#about-section #sponsor {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 150px;
+  margin-right: 100px; }
+  #about-section #sponsor .img-fluid {
+    margin-right: 100px; }
+
+.benefits-section #benefits-title-text {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  z-index: 2;
+  padding-top: 200px;
+  font-family: "Lora", serif;
+  color: red; }
+  .benefits-section #benefits-title-text span {
+    font-family: 'Caveat', cursive;
+    font-size: 50px;
+    margin-bottom: 20px; }
+
+.benefits-section #benefits-background {
   height: 70vh; }
+
+.benefits-section .text1 {
+  background-color: white;
+  padding: 50px 50px; }
+  .benefits-section .text1 span {
+    text-transform: uppercase;
+    display: block;
+    padding-bottom: 15px; }
+
+.benefits-section .text2 {
+  background-color: #1996CE;
+  padding: 50px 50px;
+  color: white; }
+  .benefits-section .text2 span {
+    text-transform: capitalize;
+    display: block;
+    padding-bottom: 15px; }
+
+.benefits-section .text3 {
+  background-color: #24282B;
+  color: white;
+  padding: 50px 50px; }
+  .benefits-section .text3 span {
+    text-transform: capitalize;
+    display: block;
+    padding-bottom: 15px; }
 
 #colaborate-section #colaborate-background {
   height: 100vh;
