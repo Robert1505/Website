@@ -19,6 +19,7 @@
   "homepage": "https://github.com/Robert1505/Website#readme",
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^5.13.0",
+    "@srexi/purecounterjs": "^1.1.1",
     "bootstrap": "^4.4.1",
     "font-awesome": "^4.7.0",
     "gulp": "^4.0.2",

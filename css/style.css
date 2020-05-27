@@ -196,7 +196,8 @@ body {
         padding-bottom: 10px; }
   #mission-section #firstdiv {
     background: url("../img/our-main-mission.jpg");
-    height: 100%; }
+    background-position: center;
+    background-size: cover; }
     #mission-section #firstdiv button {
       background: transparent;
       text-transform: uppercase;
@@ -236,13 +237,8 @@ body {
     font-size: 13px;
     margin-bottom: 120px; }
 
-#about-section #sponsor {
-  margin-top: 50px;
-  margin-bottom: 50px;
-  margin-left: 150px;
-  margin-right: 100px; }
-  #about-section #sponsor .img-fluid {
-    margin-right: 100px; }
+#about-section #sponsor img {
+  height: 50px; }
 
 .benefits-section #benefits-title-text {
   display: flex;
@@ -268,7 +264,8 @@ body {
   .benefits-section .text1 span {
     text-transform: uppercase;
     display: block;
-    padding-bottom: 15px; }
+    padding-bottom: 15px;
+    font-weight: 600; }
 
 .benefits-section .text2 {
   background-color: #1996CE;
@@ -277,7 +274,8 @@ body {
   .benefits-section .text2 span {
     text-transform: capitalize;
     display: block;
-    padding-bottom: 15px; }
+    padding-bottom: 15px;
+    font-weight: 600; }
 
 .benefits-section .text3 {
   background-color: #24282B;
@@ -287,6 +285,10 @@ body {
     text-transform: capitalize;
     display: block;
     padding-bottom: 15px; }
+
+.benefits-section .icons {
+  padding-left: 75px;
+  padding-bottom: 25px; }
 
 #colaborate-section #colaborate-background {
   height: 100vh;
