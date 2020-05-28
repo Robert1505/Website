@@ -23,7 +23,6 @@ body {
     #hero-section header .social-media button {
       background: transparent;
       text-transform: uppercase;
-      border: white !important;
       color: white;
       margin-left: 35px;
       margin-top: 20px;
@@ -195,13 +194,27 @@ body {
         display: block;
         padding-bottom: 10px; }
   #mission-section #firstdiv {
-    background: url("../img/our-main-mission.jpg");
+    background: url("../img/new-background.jpg");
     background-position: center;
-    background-size: cover; }
+    background-size: cover;
+    color: white;
+    text-align: center;
+    font-family: "Lora", serif;
+    padding-top: 350px;
+    padding-left: 10px;
+    padding-right: 5px;
+    font-size: 11px; }
+    #mission-section #firstdiv span {
+      display: block;
+      font-weight: 600;
+      font-size: 20px;
+      padding-bottom: 20px; }
     #mission-section #firstdiv button {
+      margin-top: 20px;
+      font-size: 11px;
       background: transparent;
       text-transform: uppercase;
-      border: white;
+      color: white;
       font-family: "Montserrat", sans-serif;
       font-weight: 600;
       border: solid 1px;
@@ -216,14 +229,10 @@ body {
   #about-section #about-text-button .title {
     font-size: 30px;
     padding-top: 80px;
-    padding-bottom: 30px;
-    padding-left: 350px;
-    padding-right: 350px; }
+    padding-bottom: 30px; }
   #about-section #about-text-button .text {
     font-size: 13px;
-    padding-bottom: 30px;
-    padding-left: 400px;
-    padding-right: 400px; }
+    padding-bottom: 30px; }
   #about-section #about-text-button .about-us-button-2 {
     background: #71B347;
     text-transform: capitalize;
@@ -249,7 +258,7 @@ body {
   z-index: 2;
   padding-top: 200px;
   font-family: "Lora", serif;
-  color: red; }
+  color: white; }
   .benefits-section #benefits-title-text span {
     font-family: 'Caveat', cursive;
     font-size: 50px;

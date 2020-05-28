@@ -16,6 +16,12 @@ function getJs(){
     .pipe(dest('js/'));
 }
 
+function getCss(){
+    return src('node_modules/bootstrap/dist/css/bootstrap.min.css')
+    .pipe(dest('css/'));
+}
+
 exports.css = css;
 exports.watchCode = watchCode;
 exports.getJs = getJs;
+exports.getCss = getCss;
