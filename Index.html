@@ -13,50 +13,59 @@
   <body>
     <!-- BEGINING HERO SECTION -->
     <section id ="hero-section">
-      <header class = "row">
-        <div class = "col-lg-2 col-md-2 col-sm-2">
-          <img class = "img-fluid" src = "img/logo.png" height = 100vh/>
-        </div>
-        <nav class = "col-lg-6 col-md-6 col-sm-12">
-          <ul>
-            <li>
-              Home
-            </li>
-            <li>
-              About us
-            </li>
-            <li>
-              Services
-            </li>
-            <li>
-              Features
-            </li>
-            <li>
-              News
-            </li>
-            <li>
-              Contacts
-            </li>
-          </ul>
-        </nav>
-        <div class = "col-lg-4 col-md-4 col-sm-4 social-media">
-          <div class = "social-media-button" id = "search-button">
-            <i class="fa fa-search fa-lg" aria-hidden="true"></i>
-          </div>
-          <div class = "social-media-button">
-            <i class="fa fa-facebook fa-sm" aria-hidden="true"></i>
-          </div>
-          <div class = "social-media-button">
-            <i class="fa fa-twitter fa-sm" aria-hidden="true"></i>
-          </div>
-          <div class = "social-media-button">
-            <i class="fa fa-instagram fa-sm" aria-hidden="true"></i>
-          </div>
-          <button>
-            Send request
-            <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+      <header>
+        <!--NEW MENU-->
+
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand" href="#"><img src = "img/logo.png" height="50"/></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
           </button>
-        </div>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#">News</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <div class = "social-media-button" id = "search-button">
+                <i class="fa fa-search fa-lg" aria-hidden="true"></i>
+              </div>
+              <div class = "social-media-button">
+                <i class="fa fa-facebook fa-sm" aria-hidden="true"></i>
+              </div>
+              <div class = "social-media-button">
+                <i class="fa fa-twitter fa-sm" aria-hidden="true"></i>
+              </div>
+              <div class = "social-media-button">
+                <i class="fa fa-instagram fa-sm" aria-hidden="true"></i>
+              </div>
+              <button>
+                Send request
+                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+              </button>
+            </form>
+          </div>
+        </nav>
+
+
+
       </header>
 
       <!--BEGINNING CAROUSEL-->
@@ -231,24 +240,26 @@
           ABOUT US
         </button>
       </div>
-      <div class = "row" id = "sponsor">
-        <div class = "col-lg-1 offset-lg-3 col-md-1 offset-md-3 col-sm-1 offset-sm-3">
-          <img src = "img/sponsor1.png"/>
-        </div>
-        <div class = "col-lg-1 col-md-1 col-sm-1">
-          <img src = "img/sponsor2.png"/>
-        </div>
-          <div class = "col-lg-1 col-md-1 col-sm-1">
-          <img class = "img-fluid" src = "img/sponsor3.png"/>
-        </div>
-        <div class = "col-lg-1 col-md-1 col-sm-1">
-          <img class = "img-fluid" src = "img/sponsor4.png"/>
-        </div>
-        <div class = "col-lg-1 col-md-1 col-sm-1">
-          <img class = "img-fluid" src = "img/sponsor5.png"/>
-        </div>
-        <div class = "col-lg-1 col-md-1 col-sm-1">
-          <img class = "img-fluid" src = "img/sponsor6.png"/>
+      <div class = "container" id = "sponsor">
+        <div class = "row">
+          <div class = "col-lg-2 col-md-2 col-sm-2">
+            <img class = "img-fluid" src = "img/sponsor1.png"/>
+          </div>
+          <div class = "col-lg-2 col-md-2 col-sm-2">
+            <img class = "img-fluid" src = "img/sponsor2.png"/>
+          </div>
+            <div class = "col-lg-2 col-md-2 col-sm-2">
+            <img class = "img-fluid" src = "img/sponsor3.png"/>
+          </div>
+          <div class = "col-lg-2 col-md-2 col-sm-2">
+            <img class = "img-fluid" src = "img/sponsor4.png"/>
+          </div>
+          <div class = "col-lg-2 col-md-2 col-sm-2">
+            <img class = "img-fluid" src = "img/sponsor5.png"/>
+          </div>
+          <div class = "col-lg-2 col-md-2 col-sm-2">
+            <img class = "img-fluid" src = "img/sponsor6.png"/>
+          </div>
         </div>
       </div>
     </section>
@@ -312,7 +323,9 @@
               0
             </div>
           </span>
-          YEARS EXPERIENCE
+          <div>
+            YEARS EXPERIENCE
+          </div>
         </div>
         <div class = "col-lg-2 col-md-2 col-sm-2 title">
           <span>

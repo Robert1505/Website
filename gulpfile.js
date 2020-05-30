@@ -12,7 +12,7 @@ function watchCode(){
 }
 
 function getJs(){
-    return src('node_modules/bootstrap/dist/js/bootstrap.min.js')
+    return src(["node_modules/bootstrap/dist/js/bootstrap.min.js","node_modules/jquery/dist/jquery.min.js","node_modules/@srexi/purecounterjs/dist/purecounter_vanilla.js"])
     .pipe(dest('js/'));
 }
 
