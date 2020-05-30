@@ -278,7 +278,8 @@ body {
 .benefits-section{
     #benefits-title-text{
         span{
-            font-family: 'Caveat', cursive;
+            font-family: 'Lato', sans-serif;
+            text-transform: capitalize;
             font-size: 50px;
             margin-bottom: 20px;
         }
@@ -299,7 +300,15 @@ body {
     .banner{
         
     }
+    .benefits-grey-background{
+        background: #F8F8F8;
+    }
     .text1{
+        .fa{
+            padding-top: 75px;
+            font-size: 50px;
+            padding-bottom: 25px;
+        }
         span{
             text-transform: uppercase;
             display: block;
@@ -308,9 +317,17 @@ body {
         }
 
         background-color: white;
-        padding: 50px 50px;
+        text-align: center;
+        padding-bottom: 75px;
+        padding-left: 40px;
+        padding-right: 40px;
     }
     .text2{
+        .fa{
+            padding-top: 75px;
+            font-size: 50px;
+            padding-bottom: 25px;
+        }
         span{
             text-transform: capitalize;
             display: block;
@@ -319,10 +336,18 @@ body {
         }
 
         background-color: $blue;
-        padding: 50px 50px;
+        text-align: center;
         color:white;
+        padding-bottom: 75px;
+        padding-left: 40px;
+        padding-right: 40px;
     }
     .text3{
+        .fa{
+            padding-top: 75px;
+            font-size: 50px;
+            padding-bottom: 25px;
+        }
         span{
             text-transform: capitalize;
             display: block;
@@ -331,11 +356,40 @@ body {
 
         background-color: #24282B;
         color:white;
-        padding: 50px 50px;
+        text-align: center;
+        padding-bottom: 75px;
+        padding-left: 40px;
+        padding-right: 40px;
     }
-    .icons{
-        padding-left: 75px;
-        padding-bottom: 25px;
+}
+
+#ranking-section{
+    background: #F8F8F8;
+
+    .title-subtitle{
+        span{
+            font-family: 'Lato', sans-serif;
+            display: block;
+            text-transform: capitalize;
+            padding-top: 100px;
+            font-size: 35px;
+            padding-bottom: 15px;
+            font-weight: 400;
+        }
+        font-family: $secondary-font;
+        text-align: center;
+        font-size: 11px;
+        padding-bottom: 45px;
+    }
+    span{
+        font-weight: 700;
+        font-size: 35px;
+        text-align: center;
+    }
+    .title{
+        font-size: 11px;
+        padding-bottom: 100px;
+        text-align: center;
     }
 }
 

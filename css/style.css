@@ -260,16 +260,27 @@ body {
   font-family: "Lora", serif;
   color: white; }
   .benefits-section #benefits-title-text span {
-    font-family: 'Caveat', cursive;
+    font-family: 'Lato', sans-serif;
+    text-transform: capitalize;
     font-size: 50px;
     margin-bottom: 20px; }
 
 .benefits-section #benefits-background {
   height: 70vh; }
 
+.benefits-section .benefits-grey-background {
+  background: #F8F8F8; }
+
 .benefits-section .text1 {
   background-color: white;
-  padding: 50px 50px; }
+  text-align: center;
+  padding-bottom: 75px;
+  padding-left: 40px;
+  padding-right: 40px; }
+  .benefits-section .text1 .fa {
+    padding-top: 75px;
+    font-size: 50px;
+    padding-bottom: 25px; }
   .benefits-section .text1 span {
     text-transform: uppercase;
     display: block;
@@ -278,8 +289,15 @@ body {
 
 .benefits-section .text2 {
   background-color: #1996CE;
-  padding: 50px 50px;
-  color: white; }
+  text-align: center;
+  color: white;
+  padding-bottom: 75px;
+  padding-left: 40px;
+  padding-right: 40px; }
+  .benefits-section .text2 .fa {
+    padding-top: 75px;
+    font-size: 50px;
+    padding-bottom: 25px; }
   .benefits-section .text2 span {
     text-transform: capitalize;
     display: block;
@@ -289,15 +307,42 @@ body {
 .benefits-section .text3 {
   background-color: #24282B;
   color: white;
-  padding: 50px 50px; }
+  text-align: center;
+  padding-bottom: 75px;
+  padding-left: 40px;
+  padding-right: 40px; }
+  .benefits-section .text3 .fa {
+    padding-top: 75px;
+    font-size: 50px;
+    padding-bottom: 25px; }
   .benefits-section .text3 span {
     text-transform: capitalize;
     display: block;
     padding-bottom: 15px; }
 
-.benefits-section .icons {
-  padding-left: 75px;
-  padding-bottom: 25px; }
+#ranking-section {
+  background: #F8F8F8; }
+  #ranking-section .title-subtitle {
+    font-family: "Lora", serif;
+    text-align: center;
+    font-size: 11px;
+    padding-bottom: 45px; }
+    #ranking-section .title-subtitle span {
+      font-family: 'Lato', sans-serif;
+      display: block;
+      text-transform: capitalize;
+      padding-top: 100px;
+      font-size: 35px;
+      padding-bottom: 15px;
+      font-weight: 400; }
+  #ranking-section span {
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center; }
+  #ranking-section .title {
+    font-size: 11px;
+    padding-bottom: 100px;
+    text-align: center; }
 
 #colaborate-section #colaborate-background {
   height: 100vh;
