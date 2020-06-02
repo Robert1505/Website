@@ -376,6 +376,20 @@ body {
 #colaborate-section #colaborate {
   padding-left: 0;
   padding-right: 0; }
+  #colaborate-section #colaborate span {
+    font-family: 'Lato', sans-serif;
+    display: block;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 35px;
+    padding-top: 300px;
+    padding-bottom: 35px; }
+  #colaborate-section #colaborate .description {
+    font-family: "Lora", serif;
+    text-align: center;
+    padding-left: 10px;
+    font-size: 13px;
+    padding-right: 10px; }
   #colaborate-section #colaborate .more-about-us-button {
     background: #1996CE;
     border: #1996CE;
