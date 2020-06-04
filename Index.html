@@ -387,8 +387,13 @@
           </div>
         </div>
         <div class = "row">
-          <div class = "col-lg-1 col-md-1 col-sm-1 statistics">
-            % PROFIT INCREASE
+          <div class = "col-lg-2 col-md-2 col-sm-2 statistics">
+            <div id = "profit">
+              
+            </div>
+            <div>
+              PROFIT INCREASE
+            </div>
           </div>
           <div class = "col-lg-1 offset-lg-1 col-md-1 offset-md-1 col-sm-1 offset-sm-1 statistics">
             % SUCCESSFUL CONTRACTS
@@ -417,19 +422,23 @@
             <div class = "icons">
               <i class="fa fa-diamond" aria-hidden="true"></i>
             </div>
-            <span>
-              Financial Services Consulting
-            </span>
-            I must explain to you how all this mistaken idea of denouncing pleasure nand aising in was born and give you a complete.
+            <div>
+              <span>
+                Financial Services Consulting
+              </span>
+              I must explain to you how all this mistaken idea of denouncing pleasure nand aising in was born and give you a complete.
+            </div>
           </div>
           <div class = "subtitle">
             <div class = "icons">
               <i class="fa fa-life-ring" aria-hidden="true"></i>
             </div>
-            <span>
-              Company Management
-            </span>
-            I must explain to you how all this mistaken idea of denouncing pleasure nand aising in was born and give you a complete.
+            <div>
+              <span>
+                Company Management
+              </span>
+              I must explain to you how all this mistaken idea of denouncing pleasure nand aising in was born and give you a complete.
+            </div>
           </div>
           <button class = "services-button">
             <i class="fa fa-arrow-right" aria-hidden="true"></i>
@@ -450,6 +459,12 @@
       <div class = "row">
         <div class = "col-lg-3 col-md-3 col-sm-3 staff-members">
           <img class = "img-fluid" src = "img/staff1-removebg-preview.png"/>
+          <div class = "description">
+            <span>
+              Samantha Fox
+            </span>
+            Chief Economist of LeGrand Securities
+          </div>
         </div>
         <div class = "col-lg-3 offset-lg-1 col-md-2 offset-md-1 col-sm-2 offset-sm-1">
           <img class = "img-fluid" src = "img/staff2-removebg-preview.png"/>
@@ -653,7 +668,16 @@
     <!-- END FOOTER SECTION -->
     <script src = "js/jquery.min.js"></script>
     <script src = "js/bootstrap.min.js"></script>
-    <script>$('.carousel').carousel()</script>
     <script src = "js/purecounter_vanilla.js"></script>
+    <script src = "js/progressbar.min.js"></script>
+    <script>
+      $('.carousel').carousel();
+      var circle = new ProgressBar.Circle('#profit', {
+        color: '#71B347',
+        duration: 3000,
+        easing: 'easeInOut'
+      });
+      circle.animate(0.8);
+    </script>
   </body>
 </html>

@@ -392,6 +392,11 @@ body {
     padding-left: 10px;
     font-size: 13px;
     padding-right: 10px; }
+  #colaborate-section #colaborate .statistics #profit {
+    height: 300px; }
+  #colaborate-section #colaborate .statistics #profit > svg {
+    height: 100%;
+    display: block; }
   #colaborate-section #colaborate .more-about-us-button {
     background: #1996CE;
     border: #1996CE;
@@ -456,17 +461,18 @@ body {
   padding-top: 50px;
   padding-bottom: 50px; }
 
-#staff-section .description {
-  font-size: 13px;
-  font-family: "Lora", serif;
-  margin-left: 80px;
-  text-align: center;
-  padding-bottom: 100px; }
-  #staff-section .description span {
-    display: block;
-    font-weight: 600;
-    font-size: 15px;
-    padding-bottom: 5px; }
+#staff-section .staff-members {
+  text-align: center; }
+  #staff-section .staff-members .description {
+    font-size: 13px;
+    font-family: "Lora", serif;
+    text-align: center;
+    padding-bottom: 100px; }
+    #staff-section .staff-members .description span {
+      display: block;
+      font-weight: 600;
+      font-size: 15px;
+      padding-bottom: 5px; }
 
 #reviews-section {
   background: #F8F8F8; }

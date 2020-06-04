@@ -453,7 +453,14 @@ body {
             padding-right: 10px;
         }
         .statistics{
+            #profit {
+                height: 300px;
+            }
 
+            #profit > svg {
+                height: 100%;
+                display: block;
+            }
         }
         .more-about-us-button{
             background : $blue;
@@ -524,20 +531,20 @@ body {
         padding-bottom: 50px;
     }
     .staff-members{
-    
-    }
-    .description{
-        span{
-            display: block;
-            font-weight: 600;
-            font-size: 15px;
-            padding-bottom: 5px;
-        }
-        font-size: 13px;
-        font-family: $secondary-font;
-        margin-left: 80px;
         text-align: center;
-        padding-bottom: 100px;
+
+        .description{
+            span{
+                display: block;
+                font-weight: 600;
+                font-size: 15px;
+                padding-bottom: 5px;
+            }
+            font-size: 13px;
+            font-family: $secondary-font;
+            text-align: center;
+            padding-bottom: 100px;
+        }
     }
 }
 #reviews-section{
