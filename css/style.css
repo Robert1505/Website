@@ -460,12 +460,44 @@ body {
   font-size: 13px;
   font-family: "Lora", serif;
   margin-left: 80px;
-  text-align: center; }
+  text-align: center;
+  padding-bottom: 100px; }
   #staff-section .description span {
     display: block;
     font-weight: 600;
     font-size: 15px;
     padding-bottom: 5px; }
+
+#reviews-section {
+  background: #F8F8F8; }
+  #reviews-section .title-subtitle {
+    padding-top: 150px;
+    text-align: center;
+    padding-bottom: 40px;
+    background: #F8F8F8;
+    font-family: "Lora", serif; }
+    #reviews-section .title-subtitle span {
+      font-family: 'Lato', sans-serif;
+      font-size: 40px;
+      display: block;
+      text-align: center;
+      padding-bottom: 20px; }
+  #reviews-section .photos {
+    padding-top: 100px;
+    background: #F8F8F8; }
+    #reviews-section .photos .text {
+      text-align: center;
+      font-family: "Lora", serif; }
+    #reviews-section .photos .name-function {
+      text-align: center;
+      font-size: 13px;
+      font-family: "Lora", serif; }
+      #reviews-section .photos .name-function span {
+        display: block;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-size: 15px;
+        font-weight: 600; }
 
 #request-section button {
   background: transparent;
