@@ -289,7 +289,8 @@ body {
   background: #F8F8F8; }
   .benefits-section .benefits-grey-background #banner1 {
     padding-right: 7px;
-    padding-left: 7px; }
+    padding-left: 7px;
+    padding-top: 100px; }
     .benefits-section .benefits-grey-background #banner1 .text1 {
       background-color: white;
       text-align: center;
@@ -307,7 +308,8 @@ body {
         font-weight: 600; }
   .benefits-section .benefits-grey-background #banner2 {
     padding-left: 7px;
-    padding-right: 7px; }
+    padding-right: 7px;
+    padding-top: 100px; }
     .benefits-section .benefits-grey-background #banner2 .text2 {
       background-color: #1996CE;
       text-align: center;
@@ -326,7 +328,8 @@ body {
         font-weight: 600; }
   .benefits-section .benefits-grey-background #banner3 {
     padding-left: 7px;
-    padding-right: 7px; }
+    padding-right: 7px;
+    padding-top: 100px; }
     .benefits-section .benefits-grey-background #banner3 .text3 {
       background-color: #24282B;
       color: white;
@@ -432,11 +435,13 @@ body {
       padding-top: 150px;
       padding-bottom: 20px; }
   #services-section #services-text-button .subtitle {
-    padding-left: 100px;
+    padding-left: 50px;
     padding-right: 10px;
-    padding-bottom: 35px; }
+    padding-bottom: 35px;
+    display: flex; }
     #services-section #services-text-button .subtitle .icons {
-      font-size: 30px; }
+      font-size: 40px;
+      margin-right: 30px; }
     #services-section #services-text-button .subtitle span {
       font-weight: 600;
       display: block;
@@ -446,7 +451,7 @@ body {
     border: #71B347 !important;
     text-transform: capitalize;
     color: white;
-    margin-left: 100px;
+    margin-left: 120px;
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
     border: solid 1px;
@@ -491,13 +496,17 @@ body {
   #reviews-section .photos {
     padding-top: 100px;
     background: #F8F8F8; }
+    #reviews-section .photos #bck-white {
+      background: white; }
     #reviews-section .photos .text {
       text-align: center;
-      font-family: "Lora", serif; }
+      font-family: "Lora", serif;
+      padding: 20px 30px; }
     #reviews-section .photos .name-function {
       text-align: center;
       font-size: 13px;
-      font-family: "Lora", serif; }
+      font-family: "Lora", serif;
+      margin-left: 50px; }
       #reviews-section .photos .name-function span {
         display: block;
         padding-top: 5px;

@@ -12,7 +12,7 @@ function watchCode(){
 }
 
 function getJs(){
-    return src(["node_modules/bootstrap/dist/js/bootstrap.min.js","node_modules/jquery/dist/jquery.min.js","node_modules/@srexi/purecounterjs/dist/purecounter_vanilla.js"])
+    return src(["node_modules/bootstrap/dist/js/bootstrap.min.js","node_modules/jquery/dist/jquery.min.js","node_modules/@srexi/purecounterjs/dist/purecounter_vanilla.js","node_modules/progressbar.js/dist/progressbar.min.js"])
     .pipe(dest('js/'));
 }
 

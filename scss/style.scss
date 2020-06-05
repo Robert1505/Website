@@ -322,6 +322,7 @@ body {
         #banner1{
             padding-right: 7px;
             padding-left: 7px;
+            padding-top: 100px;
 
             .text1{
                 .fa{
@@ -346,6 +347,7 @@ body {
         #banner2{
             padding-left: 7px;
             padding-right: 7px;
+            padding-top: 100px;
 
             .text2{
                 .fa{
@@ -371,6 +373,7 @@ body {
         #banner3{
             padding-left: 7px;
             padding-right: 7px;
+            padding-top: 100px;
 
             .text3{
                 .fa{
@@ -498,12 +501,14 @@ body {
             }
         }
         .subtitle{
-            padding-left: 100px;
+            padding-left: 50px;
             padding-right: 10px;
             padding-bottom: 35px;
+            display: flex;
 
             .icons{
-                font-size: 30px
+                font-size: 40px;
+                margin-right: 30px;
             }
             span{
                 font-weight: 600;
@@ -516,7 +521,7 @@ body {
             border : $green !important;
             text-transform : capitalize;
             color : white;
-            margin-left: 100px;
+            margin-left: 120px;
             @include button;
         }
     
@@ -566,14 +571,19 @@ body {
     .photos{
         padding-top: 100px;
         background: #F8F8F8;
+        #bck-white{
+            background: white;
+        }
         .text{
             text-align: center;
             font-family: $secondary-font;
+            padding: 20px 30px;
         }
         .name-function{
             text-align: center;
             font-size: 13px;
             font-family: $secondary-font;
+            margin-left: 50px;
             span{
                 display: block;
                 padding-top: 5px;
