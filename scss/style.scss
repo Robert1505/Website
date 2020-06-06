@@ -14,196 +14,67 @@ $secondary-font : 'Lora', serif;;
     padding-left : 0;
     padding-right : 0;
 }
+@import "hero-section.scss";
 body {
     margin : 0;
     padding : 0;
 }
-#hero-section {
-
-    header{
-        width: 100%;
-        position : absolute;
-        z-index : 2;
-
-        nav{
-            width: 100%;
-            background-color: transparent;
-
-            .logo{
-                margin-top: 15px;
-            }
-            ul{
-                margin-left: 330px;
-                margin-top: 25px;
-                li{
-                    a{
-                        float : left;
-                        font-size: 17px;
-                        font-weight: 600;
-                        list-style : none;
-                        margin-right: 10px;
-                        color : white;
-                    }
-                }
-            }
-        }
-        .social-media{
-            display: flex;
-            justify-content: flex-end;
-            color : white;
-
-            #search-button{
-                margin-right: 30px;
-            }
-            &-button{
-                float : left;
-                margin-right : 13px;
-                margin-top: 28px;
-            }
-            button{
-                background : transparent;
-                text-transform : uppercase;
-                color : white;
-                margin-left: 35px;
-                margin-top: 20px;
-                @include button;
-
-                .fa-paper-plane-o{
-                    margin-left : 5px;
-                }
-            }
-        }
-    }
-    .title-and-buttons{
-        display : flex;  
-        text-align: center;
-        justify-content : center;
-        flex-direction : column;
-
-        .buttons{
-            margin : 0 auto;
-            margin-top : 20px;
-        }
-        .first-title{
-            font-size : 13px;
-            color : white;
-            text-transform : uppercase;
-            font-family : $primary-font;
-        }
-        .second-title{
-            font-size : 60px;
-            color : white;
-            text-transform : uppercase;
-            font-weight : 600;
-            font-family : $primary-font;
-        }
-        .third-title{
-            font-size : 15px;
-            color : white;
-            font-family : $secondary-font;
-        }
-        .about-us-button{
-            background : $green;
-            text-transform : capitalize;
-            border-color : transparent !important;
-            margin-right : 10px;
-            @include button;
-        }
-        .presentation-button{
-            background : $blue;
-            border-color : transparent !important;
-            text-transform : capitalize;
-            color : black;
-            @include button;
-        }
-    }
-    .title-and-buttons-2{
-        display : flex;  
-        text-align: center;
-        justify-content : center;
-        flex-direction : column;
-
-        .buttons{
-            margin : 0 auto;
-            margin-top : 20px;
-        }
-        .first-title{
-            font-size : 13px;
-            color : white;
-            text-transform : uppercase;
-            font-family : $primary-font;
-        }
-        .second-title{
-            font-size : 60px;
-            color : white;
-            text-transform : uppercase;
-            font-weight : 600;
-            font-family : $primary-font;
-        }
-        .third-title{
-            font-size : 15px;
-            color : white;
-            font-family : $secondary-font;
-        }
-        .mission-button{
-            background : $blue;
-            text-transform : capitalize;
-            border-color : transparent !important;
-            margin-right : 10px;
-            @include button;
-        }
-        .award-button{
-            background : $green;
-            border-color : transparent !important;
-            text-transform : capitalize;
-            color : black;
-            @include button;
-        }
-    }
-    .title-and-buttons-3{
-        display : flex;  
-        text-align: center;
-        justify-content : center;
-        flex-direction : column;
-
-        .buttons{
-            margin : 0 auto;
-            margin-top : 20px;
-        }
-        .first-title{
-            font-size : 13px;
-            color : white;
-            text-transform : uppercase;
-            font-family : $primary-font;
-        }
-        .second-title{
-            font-size : 60px;
-            color : white;
-            text-transform : uppercase;
-            font-weight : 600;
-            font-family : $primary-font;
-        }
-        .third-title{
-            font-size : 15px;
-            color : white;
-            font-family : $secondary-font;
-        }
-        .services-button{
-            background : $green;
-            text-transform : capitalize;
-            border-color : transparent !important;
-            margin-right : 10px;
-            @include button;
-        }
-        .contact-button{
-            background : $blue;
-            border-color : transparent !important;
-            text-transform : capitalize;
-            color : black;
-            @include button;
-        }
-    }
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
 }
+ 
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
+}
+/* Pulse */
+@-webkit-keyframes hvr-pulse {
+    25% {
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+    }
+    75% {
+      -webkit-transform: scale(0.9);
+      transform: scale(0.9);
+    }
+  }
+  @keyframes hvr-pulse {
+    25% {
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+    }
+    75% {
+      -webkit-transform: scale(0.9);
+      transform: scale(0.9);
+    }
+  }
+  .hvr-pulse {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  }
+  .hvr-pulse:hover, .hvr-pulse:focus, .hvr-pulse:active {
+    -webkit-animation-name: hvr-pulse;
+    animation-name: hvr-pulse;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+  }
+  
+
 #mission-section{
     display : flex;
     flex-wrap : wrap;
@@ -454,15 +325,39 @@ body {
             padding-left: 10px;
             font-size: 13px;
             padding-right: 10px;
+            margin-bottom: 50px;
         }
         .statistics{
             #profit {
-                height: 300px;
+                .progressbar-text{
+                    color: black;
+                }
             }
 
             #profit > svg {
                 height: 100%;
                 display: block;
+            }
+            #contracts {
+                
+            }
+
+            #contracts > svg {
+                height: 100%;
+                display: block;
+            }
+            #management {
+                .progressbar-text{
+                    color: black !important;
+                }
+            }
+
+            #management > svg {
+                height: 100%;
+                display: block;
+            }
+            .text{
+                font-size: 13px;
             }
         }
         .more-about-us-button{
@@ -568,12 +463,20 @@ body {
             padding-bottom: 20px;
         }
     }
+    .photos:hover{
+        opacity: 1;
+        filter: blur(0px);
+        .text{
+            background: white;
+            box-shadow: 0px 8px 6px -6px black;
+            border-radius: 10px;
+        }
+    }
     .photos{
         padding-top: 100px;
         background: #F8F8F8;
-        #bck-white{
-            background: white;
-        }
+        opacity: 0.5;
+        filter: blur(3px);
         .text{
             text-align: center;
             font-family: $secondary-font;
@@ -591,6 +494,9 @@ body {
                 font-size: 15px;
                 font-weight: 600;
             }
+        }
+        .image{
+            padding: 30px;
         }
     }
 }

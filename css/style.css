@@ -1,7 +1,3 @@
-body {
-  margin: 0;
-  padding: 0; }
-
 #hero-section header {
   width: 100%;
   position: absolute;
@@ -183,6 +179,59 @@ body {
     height: 40px;
     width: 160px;
     font-size: 13px; }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform; }
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+  transform: scale(1.1); }
+
+/* Pulse */
+@-webkit-keyframes hvr-pulse {
+  25% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); }
+  75% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9); } }
+
+@keyframes hvr-pulse {
+  25% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); }
+  75% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9); } }
+
+.hvr-pulse {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0); }
+
+.hvr-pulse:hover, .hvr-pulse:focus, .hvr-pulse:active {
+  -webkit-animation-name: hvr-pulse;
+  animation-name: hvr-pulse;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite; }
 
 #mission-section {
   display: flex;
@@ -394,12 +443,23 @@ body {
     text-align: center;
     padding-left: 10px;
     font-size: 13px;
-    padding-right: 10px; }
-  #colaborate-section #colaborate .statistics #profit {
-    height: 300px; }
+    padding-right: 10px;
+    margin-bottom: 50px; }
+  #colaborate-section #colaborate .statistics #profit .progressbar-text {
+    color: black; }
   #colaborate-section #colaborate .statistics #profit > svg {
     height: 100%;
     display: block; }
+  #colaborate-section #colaborate .statistics #contracts > svg {
+    height: 100%;
+    display: block; }
+  #colaborate-section #colaborate .statistics #management .progressbar-text {
+    color: black !important; }
+  #colaborate-section #colaborate .statistics #management > svg {
+    height: 100%;
+    display: block; }
+  #colaborate-section #colaborate .statistics .text {
+    font-size: 13px; }
   #colaborate-section #colaborate .more-about-us-button {
     background: #1996CE;
     border: #1996CE;
@@ -493,11 +553,18 @@ body {
       display: block;
       text-align: center;
       padding-bottom: 20px; }
+  #reviews-section .photos:hover {
+    opacity: 1;
+    filter: blur(0px); }
+    #reviews-section .photos:hover .text {
+      background: white;
+      box-shadow: 0px 8px 6px -6px black;
+      border-radius: 10px; }
   #reviews-section .photos {
     padding-top: 100px;
-    background: #F8F8F8; }
-    #reviews-section .photos #bck-white {
-      background: white; }
+    background: #F8F8F8;
+    opacity: 0.5;
+    filter: blur(3px); }
     #reviews-section .photos .text {
       text-align: center;
       font-family: "Lora", serif;
@@ -513,6 +580,8 @@ body {
         padding-bottom: 5px;
         font-size: 15px;
         font-weight: 600; }
+    #reviews-section .photos .image {
+      padding: 30px; }
 
 #request-section button {
   background: transparent;
