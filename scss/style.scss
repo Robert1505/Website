@@ -14,7 +14,9 @@ $secondary-font : 'Lora', serif;;
     padding-left : 0;
     padding-right : 0;
 }
-@import "hero-section.scss";
+
+
+
 body {
     margin : 0;
     padding : 0;
@@ -74,6 +76,192 @@ body {
     animation-iteration-count: infinite;
   }
   
+  #hero-section {
+
+    header{
+        width: 100%;
+        position : absolute;
+        z-index : 2;
+
+        nav{
+            width: 100%;
+            background-color: transparent;
+
+            .logo{
+                margin-top: 15px;
+            }
+            ul{
+                margin-left: 330px;
+                margin-top: 25px;
+                li{
+                    a{
+                        float : left;
+                        font-size: 17px;
+                        font-weight: 600;
+                        list-style : none;
+                        margin-right: 10px;
+                        color : white;
+                    }
+                }
+            }
+        }
+        .social-media{
+            display: flex;
+            justify-content: flex-end;
+            color : white;
+
+            #search-button{
+                margin-right: 30px;
+            }
+            &-button{
+                float : left;
+                margin-right : 13px;
+                margin-top: 28px;
+            }
+            button{
+                background : transparent;
+                text-transform : uppercase;
+                color : white;
+                margin-left: 35px;
+                margin-top: 20px;
+                @include button;
+
+                .fa-paper-plane-o{
+                    margin-left : 5px;
+                }
+            }
+        }
+    }
+    .title-and-buttons{
+        display : flex;  
+        text-align: center;
+        justify-content : center;
+        flex-direction : column;
+
+        .buttons{
+            margin : 0 auto;
+            margin-top : 20px;
+        }
+        .first-title{
+            font-size : 13px;
+            color : white;
+            text-transform : uppercase;
+            font-family : $primary-font;
+        }
+        .second-title{
+            font-size : 60px;
+            color : white;
+            text-transform : uppercase;
+            font-weight : 600;
+            font-family : $primary-font;
+        }
+        .third-title{
+            font-size : 15px;
+            color : white;
+            font-family : $secondary-font;
+        }
+        .about-us-button{
+            background : $green;
+            text-transform : capitalize;
+            border-color : transparent !important;
+            margin-right : 10px;
+            @include button;
+        }
+        .presentation-button{
+            background : $blue;
+            border-color : transparent !important;
+            text-transform : capitalize;
+            color : black;
+            @include button;
+        }
+    }
+    .title-and-buttons-2{
+        display : flex;  
+        text-align: center;
+        justify-content : center;
+        flex-direction : column;
+
+        .buttons{
+            margin : 0 auto;
+            margin-top : 20px;
+        }
+        .first-title{
+            font-size : 13px;
+            color : white;
+            text-transform : uppercase;
+            font-family : $primary-font;
+        }
+        .second-title{
+            font-size : 60px;
+            color : white;
+            text-transform : uppercase;
+            font-weight : 600;
+            font-family : $primary-font;
+        }
+        .third-title{
+            font-size : 15px;
+            color : white;
+            font-family : $secondary-font;
+        }
+        .mission-button{
+            background : $blue;
+            text-transform : capitalize;
+            border-color : transparent !important;
+            margin-right : 10px;
+            @include button;
+        }
+        .award-button{
+            background : $green;
+            border-color : transparent !important;
+            text-transform : capitalize;
+            color : black;
+            @include button;
+        }
+    }
+    .title-and-buttons-3{
+        display : flex;  
+        text-align: center;
+        justify-content : center;
+        flex-direction : column;
+
+        .buttons{
+            margin : 0 auto;
+            margin-top : 20px;
+        }
+        .first-title{
+            font-size : 13px;
+            color : white;
+            text-transform : uppercase;
+            font-family : $primary-font;
+        }
+        .second-title{
+            font-size : 60px;
+            color : white;
+            text-transform : uppercase;
+            font-weight : 600;
+            font-family : $primary-font;
+        }
+        .third-title{
+            font-size : 15px;
+            color : white;
+            font-family : $secondary-font;
+        }
+        .services-button{
+            background : $green;
+            text-transform : capitalize;
+            border-color : transparent !important;
+            margin-right : 10px;
+            @include button;
+        }
+        .contact-button{
+            background : $blue;
+            border-color : transparent !important;
+            text-transform : capitalize;
+            color : black;
+            @include button;
+        }
+    }
+}
 
 #mission-section{
     display : flex;
@@ -317,7 +505,7 @@ body {
             text-transform: capitalize;
             font-size: 35px;
             padding-top: 300px;
-            padding-bottom: 35px;
+            padding-bottom: 25px;
         }
         .description{
             font-family: $secondary-font;
@@ -325,12 +513,12 @@ body {
             padding-left: 10px;
             font-size: 13px;
             padding-right: 10px;
-            margin-bottom: 50px;
+            margin-bottom: 150px;
         }
         .statistics{
             #profit {
                 .progressbar-text{
-                    color: black;
+                    color: black !important;
                 }
             }
 
@@ -339,7 +527,9 @@ body {
                 display: block;
             }
             #contracts {
-                
+                .progressbar-text{
+                    color: black !important;
+                }
             }
 
             #contracts > svg {
@@ -358,12 +548,16 @@ body {
             }
             .text{
                 font-size: 13px;
+                text-align: center;
+                font-weight: 600;
+                padding-top: 15px;
             }
         }
         .more-about-us-button{
             background : $blue;
             border : $blue;
             text-transform : capitalize;
+            margin: 70px 325px;
             color : white;
             @include button;
         }
@@ -452,7 +646,7 @@ body {
     .title-subtitle{
         padding-top: 150px;
         text-align: center;
-        padding-bottom: 40px;
+        padding-bottom: 10px;
         background: #F8F8F8;
         font-family: $secondary-font;
         span{
@@ -496,7 +690,9 @@ body {
             }
         }
         .image{
-            padding: 30px;
+            padding-left: 80px;
+            padding-right: 80px;
+            padding-top: 80px;
         }
     }
 }

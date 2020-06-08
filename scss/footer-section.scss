@@ -1,0 +1,15 @@
+#footer-section{
+    button{
+        background : $green;
+        border : $green;
+        text-transform : uppercase;
+        color : white;
+        @include button;
+    }
+    .external-social-media-button{
+        display: flex;
+        justify-content: flex-end;
+        margin-right : 10px;
+        float : left;
+    }
+}

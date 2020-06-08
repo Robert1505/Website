@@ -1,0 +1,105 @@
+.benefits-section{
+    #benefits-title-text{
+        span{
+            font-family: 'Lato', sans-serif;
+            text-transform: capitalize;
+            font-size: 50px;
+            margin-bottom: 20px;
+        }
+
+        display : flex;  
+        text-align: center;
+        justify-content : center;
+        flex-direction : column;
+        position: absolute;
+        z-index: 2;
+        padding-top: 200px;
+        font-family: $secondary-font;
+        color: white;
+    }
+    #benefits-background{
+        height : 70vh;
+        @include no-padding;
+    }
+    .benefits-grey-background{
+        background: #F8F8F8;
+
+        #banner1{
+            padding-right: 7px;
+            padding-left: 7px;
+            padding-top: 100px;
+
+            .text1{
+                .fa{
+                    padding-top: 75px;
+                    font-size: 50px;
+                    padding-bottom: 25px;
+                }
+                span{
+                    text-transform: capitalize;
+                    display: block;
+                    padding-bottom: 15px;
+                    font-weight: 600;
+                }
+        
+                background-color: white;
+                text-align: center;
+                padding-bottom: 75px;
+                padding-left: 40px;
+                padding-right: 40px;
+            }
+        }
+        #banner2{
+            padding-left: 7px;
+            padding-right: 7px;
+            padding-top: 100px;
+
+            .text2{
+                .fa{
+                    padding-top: 75px;
+                    font-size: 50px;
+                    padding-bottom: 25px;
+                }
+                span{
+                    text-transform: capitalize;
+                    display: block;
+                    padding-bottom: 15px;
+                    font-weight: 600;
+                }
+        
+                background-color: $blue;
+                text-align: center;
+                color:white;
+                padding-bottom: 75px;
+                padding-left: 40px;
+                padding-right: 40px;
+            }
+        }
+        #banner3{
+            padding-left: 7px;
+            padding-right: 7px;
+            padding-top: 100px;
+
+            .text3{
+                .fa{
+                    padding-top: 75px;
+                    font-size: 50px;
+                    padding-bottom: 25px;
+                }
+                span{
+                    text-transform: capitalize;
+                    display: block;
+                    padding-bottom: 15px;
+                    font-weight: 600;
+                }
+        
+                background-color: #24282B;
+                color:white;
+                text-align: center;
+                padding-bottom: 75px;
+                padding-left: 40px;
+                padding-right: 40px;
+            }
+        }
+    }
+}

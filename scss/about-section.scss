@@ -1,0 +1,33 @@
+#about-section{
+
+    #about-text-button{
+        text-align: center;
+        font-family: $secondary-font;
+        background: #F8F8F8;
+
+        .title{
+            font-size: 30px;
+            padding-top: 80px;
+            padding-bottom: 30px;
+        }
+        .text{
+            font-size: 13px;
+            padding-bottom: 30px;
+        }
+        .about-us-button-2{
+            background : $green;
+            text-transform : capitalize;
+            color : white;
+            border : $green;
+            @include button;
+            margin-bottom: 120px;
+        }
+    }
+    #sponsor{
+        padding: 50px 0px;
+
+        img{
+            height: 50px;
+        }
+    }
+}

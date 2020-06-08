@@ -17,7 +17,7 @@ function getJs(){
 }
 
 function getCss(){
-    return src("node_modules/bootstrap/dist/css/bootstrap.min.css","node_modules/font-awesome/css/font-awesome.min.css")
+    return src("node_modules/bootstrap/dist/css/bootstrap.min.css","node_modules/font-awesome/css/font-awesome.min.css","node_modules/hover.css/css/hover-min.css")
     .pipe(dest('css/'));
 }
 

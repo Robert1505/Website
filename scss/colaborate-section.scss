@@ -1,0 +1,71 @@
+#colaborate-section {
+    #colaborate-background{
+        @include no-padding;
+        height: 100vh;
+        padding-top: 250px;
+        padding-left: 100px;
+    }
+    #colaborate{
+        @include no-padding;
+
+        span{
+            font-family: 'Lato', sans-serif;
+            display: block;
+            text-align: center;
+            text-transform: capitalize;
+            font-size: 35px;
+            padding-top: 300px;
+            padding-bottom: 35px;
+        }
+        .description{
+            font-family: $secondary-font;
+            text-align: center;
+            padding-left: 10px;
+            font-size: 13px;
+            padding-right: 10px;
+            margin-bottom: 50px;
+        }
+        .statistics{
+            #profit {
+                .progressbar-text{
+                    color: black !important;
+                }
+            }
+
+            #profit > svg {
+                height: 100%;
+                display: block;
+            }
+            #contracts {
+                .progressbar-text{
+                    color: black !important;
+                }
+            }
+
+            #contracts > svg {
+                height: 100%;
+                display: block;
+            }
+            #management {
+                .progressbar-text{
+                    color: black !important;
+                }
+            }
+
+            #management > svg {
+                height: 100%;
+                display: block;
+            }
+            .text{
+                font-size: 13px;
+            }
+        }
+        .more-about-us-button{
+            background : $blue;
+            border : $blue;
+            text-transform : capitalize;
+            color : white;
+            @include button;
+        }
+    }
+}

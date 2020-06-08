@@ -1,0 +1,55 @@
+#mission-section{
+    display : flex;
+    flex-wrap : wrap;
+
+    div{
+        @include no-padding;
+
+        .text{
+            padding : 20px 10px;
+
+            .numbers{
+                font-size : 50px;
+                font-weight : 600;
+                color : rgba(77,77,77,0.15);
+                position : absolute;
+                z-index : -1;
+                left : 0;
+                bottom : 0;
+            }
+            span{
+                font-weight : 600;
+                display: block;
+                padding-bottom: 10px;
+            }
+        }
+    }
+    #firstdiv {
+        background: url("../img/new-background.jpg");
+        background-position: center;
+        background-size: cover;
+        color: white;
+        text-align: center;
+        font-family: $secondary-font;
+        padding-top: 350px;
+        padding-left: 10px;
+        padding-right: 5px;
+        font-size: 11px;
+        span{
+            display: block;
+            font-weight: 600;
+            font-size: 20px;
+            padding-bottom: 20px;
+        }
+        button{
+            margin-top: 20px;
+            font-size: 11px;
+            background : transparent;
+            text-transform : uppercase;
+            color: white;
+            @include button;
+            height: 35px;
+            width: 145px;
+        }
+    }
+}
