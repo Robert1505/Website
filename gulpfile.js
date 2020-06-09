@@ -8,7 +8,7 @@ function css(){
 }
 
 function watchCode(){
-    watch("./scss/style.scss" , css);
+    watch("./scss/*.scss" , css);
 }
 
 function getJs(){

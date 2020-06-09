@@ -1,4 +1,24 @@
 #footer-section{
+    background: #202427;
+    color: white;
+    .left-side{
+        font-family: $secondary-font;
+        font-size: 13px;
+        font-weight: 400;
+        .description{
+            padding-top: 20px;
+            padding-bottom: 30px;
+        }
+        .address{
+            padding-bottom: 10px;
+        }
+        .phone{
+            padding-bottom: 10px;
+        }
+        .email{
+
+        }
+    }
     button{
         background : $green;
         border : $green;
@@ -6,10 +26,14 @@
         color : white;
         @include button;
     }
-    .external-social-media-button{
-        display: flex;
-        justify-content: flex-end;
-        margin-right : 10px;
-        float : left;
+    .external{
+        background: #1D2124;
+        color: white;
+        .external-social-media-button{
+            display: flex;
+            justify-content: flex-end;
+            margin-right : 8px;
+            float : left;
+        }
     }
 }

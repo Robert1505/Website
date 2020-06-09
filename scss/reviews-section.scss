@@ -3,7 +3,7 @@
     .title-subtitle{
         padding-top: 150px;
         text-align: center;
-        padding-bottom: 40px;
+        padding-bottom: 10px;
         background: #F8F8F8;
         font-family: $secondary-font;
         span{
@@ -47,7 +47,9 @@
             }
         }
         .image{
-            padding: 30px;
+            padding-left: 80px;
+            padding-right: 80px;
+            padding-top: 80px;
         }
     }
 }

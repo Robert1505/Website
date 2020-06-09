@@ -15,7 +15,7 @@
             text-transform: capitalize;
             font-size: 35px;
             padding-top: 300px;
-            padding-bottom: 35px;
+            padding-bottom: 25px;
         }
         .description{
             font-family: $secondary-font;
@@ -23,7 +23,7 @@
             padding-left: 10px;
             font-size: 13px;
             padding-right: 10px;
-            margin-bottom: 50px;
+            margin-bottom: 150px;
         }
         .statistics{
             #profit {
@@ -58,12 +58,16 @@
             }
             .text{
                 font-size: 13px;
+                text-align: center;
+                font-weight: 600;
+                padding-top: 15px;
             }
         }
         .more-about-us-button{
             background : $blue;
             border : $blue;
             text-transform : capitalize;
+            margin: 70px 325px;
             color : white;
             @include button;
         }

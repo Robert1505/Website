@@ -1,9 +1,21 @@
 #request-section{
+    background-color: #2498C4;
+    .title-subtitle{
+        .title{
+            padding-top: 40px;
+            font-size: 30px;
+            padding-bottom: 5px;
+        }
+        padding-bottom: 40px;
+        color: white;
+        font-family: $secondary-font;
+        font-size: 13px;
+    }
     button{
         background : transparent;
-        border : white;
         text-transform : uppercase;
-        color : black;
+        color : white;
+        margin-top: 55px;
         @include button;
     }
 }

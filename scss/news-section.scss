@@ -1,3 +1,31 @@
 #news-section{
-    
+    .news-title{
+        font-family: 'Lato', sans-serif;
+        font-size: 50px;
+        text-transform: capitalize;
+        padding-top: 100px;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    .subtitle{
+        font-family: $secondary-font;
+        font-size: 11px;
+        font-weight: 600;
+        text-transform: uppercase;
+        padding-top: 20px;
+        padding-bottom: 15px;
+    }
+    .title{
+        font-family: 'Lato', sans-serif;
+        font-weight: 700;
+        padding-bottom: 10px;
+    }
+    .smecherie{
+        padding-right: 30px;
+    }
+    .date{
+        font-family: $secondary-font;
+        font-size: 11px;
+        padding-bottom: 100px;
+    }
 }
