@@ -180,6 +180,18 @@
     width: 160px;
     font-size: 13px; }
 
+@media (min-width: 992px) and (max-width: 1199px) {
+  #hero-section header nav ul {
+    margin-left: 60px; }
+    #hero-section header nav ul li a {
+      font-size: 14px; }
+  #hero-section header nav .social-media-button i {
+    font-size: 1em; } }
+
+@media (min-width: 1200px) {
+  #hero-section header nav ul {
+    margin-left: 250px; } }
+
 #mission-section {
   display: flex;
   flex-wrap: wrap; }
@@ -437,25 +449,30 @@
     text-transform: capitalize;
     padding-top: 120px;
     padding-bottom: 20px; }
-  #footer-section .subscription .border {
-    border: solid 1px;
-    width: 180px;
-    height: 40px;
-    font-size: 14px;
-    justify-content: center;
-    background-color: white;
-    color: grey; }
-  #footer-section .subscription button {
-    background: #71B347;
-    border-color: transparent !important;
-    text-transform: uppercase;
-    color: white;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 600;
-    border: solid 1px;
-    height: 40px;
-    width: 160px;
-    font-size: 13px; }
+  #footer-section .subscription form {
+    display: flex; }
+    #footer-section .subscription form input {
+      border-top-left-radius: 5px;
+      border-bottom-left-radius: 5px;
+      border: 0;
+      height: 40px;
+      padding-left: 15px; }
+    #footer-section .subscription form input:focus {
+      background-color: grey;
+      color: white; }
+    #footer-section .subscription form button {
+      background: #71B347;
+      border-color: transparent !important;
+      text-transform: uppercase;
+      color: white;
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 600;
+      border: solid 1px;
+      height: 40px;
+      width: 160px;
+      font-size: 13px; }
   #footer-section .subscription .update {
     padding-top: 15px;
     font-family: "Lora", serif;
@@ -553,7 +570,8 @@
     font-size: 13px; }
 
 #reviews-section {
-  background: #F8F8F8; }
+  background: #F8F8F8;
+  padding-bottom: 20px; }
   #reviews-section .title-subtitle {
     padding-top: 150px;
     text-align: center;
