@@ -16,6 +16,7 @@
         text-transform : uppercase;
         color : white;
         margin-top: 55px;
+        border-radius: 7px;
         @include button;
     }
 }

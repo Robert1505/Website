@@ -415,9 +415,39 @@
       padding-bottom: 10px; }
     #footer-section .left-side .phone {
       padding-bottom: 10px; }
-  #footer-section button {
+    #footer-section .left-side .email {
+      padding-bottom: 100px; }
+  #footer-section .news .title {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding-top: 120px;
+    padding-bottom: 20px; }
+  #footer-section .news .news-title {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    padding-bottom: 20px; }
+  #footer-section .news .subtitle {
+    font-family: "Lora", serif;
+    font-size: 13px;
+    padding-bottom: 20px; }
+  #footer-section .subscription .subscribe-title {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding-top: 120px;
+    padding-bottom: 20px; }
+  #footer-section .subscription .border {
+    border: solid 1px;
+    width: 180px;
+    height: 40px;
+    font-size: 14px;
+    justify-content: center;
+    background-color: white;
+    color: grey; }
+  #footer-section .subscription button {
     background: #71B347;
-    border: #71B347;
+    border-color: transparent !important;
     text-transform: uppercase;
     color: white;
     font-family: "Montserrat", sans-serif;
@@ -426,13 +456,23 @@
     height: 40px;
     width: 160px;
     font-size: 13px; }
+  #footer-section .subscription .update {
+    padding-top: 15px;
+    font-family: "Lora", serif;
+    font-size: 13px; }
   #footer-section .external {
     background: #1D2124;
     color: white; }
+    #footer-section .external .copyright-title {
+      font-family: "Lora", serif;
+      font-size: 13px;
+      padding-top: 15px;
+      padding-bottom: 15px; }
     #footer-section .external .external-social-media-button {
+      padding-top: 15px;
       display: flex;
       justify-content: flex-end;
-      margin-right: 8px;
+      margin-right: 15px;
       float: left; }
 
 #news-section .news-title {
@@ -504,6 +544,7 @@
     text-transform: uppercase;
     color: white;
     margin-top: 55px;
+    border-radius: 7px;
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
     border: solid 1px;
