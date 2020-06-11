@@ -180,6 +180,16 @@
     width: 160px;
     font-size: 13px; }
 
+@media (min-width: 576px) and (max-width: 767px) {
+  nav .collapse {
+    background: grey; }
+  nav .navbar-toggler {
+    background: whitesmoke; } }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  nav .navbar-toggler {
+    background: whitesmoke; } }
+
 @media (min-width: 992px) and (max-width: 1199px) {
   #hero-section header nav ul {
     margin-left: 60px; }
