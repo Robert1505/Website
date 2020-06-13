@@ -192,14 +192,26 @@
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) and (max-width: 767px) { 
-    nav{
-        .collapse{
-            background: grey;
+    #hero-section{
+        header{
+            nav{
+                .collapse{
+                    background: rgba(100,100,100,0.75);
+                    position: relative;
+                    z-index: 99999999999999999999;
+                }
+                .navbar-toggler{
+                    background: whitesmoke;
+                }
+            }
         }
-        .navbar-toggler{
-            background: whitesmoke;
+        .carousel{
+            ol{
+                z-index: 1;
+            }
         }
     }
+    
 }
 
 // Medium devices (tablets, 768px and up)
