@@ -103,3 +103,132 @@
         }
     }
 }
+
+
+// Extra small devices
+@media (max-width: 575px)  { 
+    .benefits-section{
+
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767px) { 
+    .benefits-section{
+        #benefits-title-text{
+            padding-top: 50px;
+        }
+        #benefits-background{
+            height: auto;
+        }
+        .benefits-grey-background{
+            #banner1{
+                padding-top: 0px;
+                margin-top: -100px;
+                .text1{
+                    padding-left: 0;
+                    padding-right: 0;
+                }
+                .text2{
+                    padding-left: 0;
+                    padding-right: 0;
+                }
+                .text3{
+                    padding-left: 0;
+                    padding-right: 0;
+                }
+            }
+            #banner2{
+                padding-top: 0px;
+                margin-top: -100px;
+                .text1{
+                    padding-left: 0;
+                    padding-right: 0;
+                }
+                .text2{
+                    padding-left: 0;
+                    padding-right: 0;
+                }
+                .text3{
+                    padding-left: 0;
+                    padding-right: 0;
+                }
+            }
+            #banner3{
+                padding-top: 0px;
+                margin-top: -100px;
+                .text1{
+                    padding-left: 0;
+                    padding-right: 0;
+                }
+                .text2{
+                    padding-left: 0;
+                    padding-right: 0;
+                }
+                .text3{
+                    padding-left: 0;
+                    padding-right: 0;
+                }
+            }
+        }
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991px) { 
+    .benefits-section{
+        #benefits-title-text{
+            padding-top: 75px;
+        }
+        #benefits-background{
+            height: auto;
+        }
+        .benefits-grey-background{
+            #banner1{
+                padding-top: 0px;
+                margin-top: -100px;
+            }
+            #banner2{
+                padding-top: 0px;
+                margin-top: -100px;
+            }
+            #banner3{
+                padding-top: 0px;
+                margin-top: -100px;
+            }
+        }
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199px) { 
+    .benefits-section{
+        #benefits-title-text{
+            padding-top: 125px;
+        }
+        #benefits-background{
+            height: auto;
+        }
+        .benefits-grey-background{
+            #banner1{
+                padding-top: 0px;
+                margin-top: -100px;
+            }
+            #banner2{
+                padding-top: 0px;
+                margin-top: -100px;
+            }
+            #banner3{
+                padding-top: 0px;
+                margin-top: -100px;
+            }
+        }
+    }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+    .benefits-section{
+        
+    }
+}

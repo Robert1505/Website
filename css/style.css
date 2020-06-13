@@ -238,6 +238,8 @@
       font-weight: 600;
       font-size: 20px;
       padding-bottom: 20px; }
+    #mission-section #firstdiv div {
+      display: block; }
     #mission-section #firstdiv button {
       margin-top: 20px;
       font-size: 11px;
@@ -252,6 +254,18 @@
       font-size: 13px;
       height: 35px;
       width: 145px; }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #mission-section #firstdiv {
+    padding-top: 180px; } }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  #mission-section #firstdiv {
+    padding-top: 230px; } }
+
+@media (min-width: 1200px) {
+  #mission-section #firstdiv {
+    padding-top: 300px; } }
 
 #about-section #about-text-button {
   text-align: center;
@@ -281,6 +295,14 @@
   padding: 50px 0px; }
   #about-section #sponsor img {
     height: 50px; }
+
+@media (min-width: 576px) and (max-width: 767px) {
+  #about-section #about-text-button .title {
+    font-size: 30px; }
+  #about-section #sponsor {
+    padding: 30px 0px; }
+    #about-section #sponsor img {
+      height: 30px; } }
 
 .benefits-section #benefits-title-text {
   display: flex;
@@ -364,6 +386,78 @@
         display: block;
         padding-bottom: 15px;
         font-weight: 600; }
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .benefits-section #benefits-title-text {
+    padding-top: 50px; }
+  .benefits-section #benefits-background {
+    height: auto; }
+  .benefits-section .benefits-grey-background #banner1 {
+    padding-top: 0px;
+    margin-top: -100px; }
+    .benefits-section .benefits-grey-background #banner1 .text1 {
+      padding-left: 0;
+      padding-right: 0; }
+    .benefits-section .benefits-grey-background #banner1 .text2 {
+      padding-left: 0;
+      padding-right: 0; }
+    .benefits-section .benefits-grey-background #banner1 .text3 {
+      padding-left: 0;
+      padding-right: 0; }
+  .benefits-section .benefits-grey-background #banner2 {
+    padding-top: 0px;
+    margin-top: -100px; }
+    .benefits-section .benefits-grey-background #banner2 .text1 {
+      padding-left: 0;
+      padding-right: 0; }
+    .benefits-section .benefits-grey-background #banner2 .text2 {
+      padding-left: 0;
+      padding-right: 0; }
+    .benefits-section .benefits-grey-background #banner2 .text3 {
+      padding-left: 0;
+      padding-right: 0; }
+  .benefits-section .benefits-grey-background #banner3 {
+    padding-top: 0px;
+    margin-top: -100px; }
+    .benefits-section .benefits-grey-background #banner3 .text1 {
+      padding-left: 0;
+      padding-right: 0; }
+    .benefits-section .benefits-grey-background #banner3 .text2 {
+      padding-left: 0;
+      padding-right: 0; }
+    .benefits-section .benefits-grey-background #banner3 .text3 {
+      padding-left: 0;
+      padding-right: 0; } }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .benefits-section #benefits-title-text {
+    padding-top: 75px; }
+  .benefits-section #benefits-background {
+    height: auto; }
+  .benefits-section .benefits-grey-background #banner1 {
+    padding-top: 0px;
+    margin-top: -100px; }
+  .benefits-section .benefits-grey-background #banner2 {
+    padding-top: 0px;
+    margin-top: -100px; }
+  .benefits-section .benefits-grey-background #banner3 {
+    padding-top: 0px;
+    margin-top: -100px; } }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .benefits-section #benefits-title-text {
+    padding-top: 125px; }
+  .benefits-section #benefits-background {
+    height: auto; }
+  .benefits-section .benefits-grey-background #banner1 {
+    padding-top: 0px;
+    margin-top: -100px; }
+  .benefits-section .benefits-grey-background #banner2 {
+    padding-top: 0px;
+    margin-top: -100px; }
+  .benefits-section .benefits-grey-background #banner3 {
+    padding-top: 0px;
+    margin-top: -100px; } }
 
 #colaborate-section #colaborate-background {
   padding-left: 0;
