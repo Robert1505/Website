@@ -77,12 +77,44 @@
 
 // Extra small devices
 @media (max-width: 575px)  { 
-
+    #colaborate-section{
+        #colaborate{
+            .more-about-us-button {
+                margin: 55px 125px;
+            }
+            .description{
+                margin-bottom: 60px;
+            }
+            span{
+                padding-top: 0px;
+            }
+        } 
+        #colaborate-background{
+            padding-left: 0px;
+            padding-top: 160px;
+        }
+    } 
 }
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) and (max-width: 767px) { 
-    
+    #colaborate-section{
+        #colaborate{
+            .more-about-us-button {
+                margin: 55px 280px;
+            }
+            .description{
+                margin-bottom: 60px;
+            }
+            .row{
+                padding-left: 85px;
+                padding-right: 85px;
+            }
+        } 
+        #colaborate-background{
+            padding-top: 100px;
+        }
+    } 
 }
 
 // Medium devices (tablets, 768px and up)
