@@ -188,11 +188,25 @@
   #hero-section header nav .navbar-toggler {
     background: whitesmoke; }
   #hero-section .carousel ol {
+    z-index: 1; }
+  #hero-section .carousel .carousel-inner .carousel-item .first-title {
+    z-index: 1; }
+  #hero-section .carousel .carousel-inner .carousel-item .second-title {
+    z-index: 1; }
+  #hero-section .carousel .carousel-inner .carousel-item .third-title {
+    z-index: 1; }
+  #hero-section .carousel .carousel-inner .carousel-item .buttons {
     z-index: 1; } }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  nav .navbar-toggler {
-    background: whitesmoke; } }
+  #hero-section header nav .collapse {
+    background: #646464;
+    position: relative;
+    z-index: 999; }
+  #hero-section header nav .navbar-toggler {
+    background: whitesmoke; }
+  #hero-section .carousel ol {
+    z-index: 1; } }
 
 @media (min-width: 992px) and (max-width: 1199px) {
   #hero-section header nav ul {

@@ -209,6 +209,22 @@
             ol{
                 z-index: 1;
             }
+            .carousel-inner{
+                .carousel-item{
+                    .first-title{
+                        z-index: 1;
+                    }
+                    .second-title{
+                        z-index: 1;
+                    }
+                    .third-title{
+                        z-index: 1;
+                    }
+                    .buttons{
+                        z-index: 1;
+                    }
+                }
+            }
         }
     }
     
@@ -216,9 +232,23 @@
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) and (max-width: 991px) { 
-    nav{
-        .navbar-toggler{
-            background: whitesmoke;
+    #hero-section{
+        header{
+            nav{
+                .collapse{
+                    background: rgba(100,100,100,1);
+                    position: relative;
+                    z-index: 999;
+                }
+                .navbar-toggler{
+                    background: whitesmoke
+                }
+            }
+        }
+        .carousel{
+            ol{
+                z-index: 1;
+            }
         }
     }
 }
