@@ -1,12 +1,13 @@
 #colaborate-section {
     #colaborate-background{
         @include no-padding;
-        height: 100vh;
+        height: 100%;
         padding-top: 250px;
         padding-left: 100px;
     }
     #colaborate{
         @include no-padding;
+        padding: 60px;
 
         span{
             font-family: 'Lato', sans-serif;
@@ -14,7 +15,7 @@
             text-align: center;
             text-transform: capitalize;
             font-size: 35px;
-            padding-top: 300px;
+            padding-top: 125px;
             padding-bottom: 25px;
         }
         .description{
@@ -67,7 +68,7 @@
             background : $blue;
             border : $blue;
             text-transform : capitalize;
-            margin: 70px 325px;
+            margin: 70px 258px;
             color : white;
             @include button;
         }
@@ -80,7 +81,7 @@
     #colaborate-section{
         #colaborate{
             .more-about-us-button {
-                margin: 55px 125px;
+                margin: 55px 68px;
             }
             .description{
                 margin-bottom: 60px;
@@ -91,7 +92,7 @@
         } 
         #colaborate-background{
             padding-left: 0px;
-            padding-top: 160px;
+            padding-top: 55px;
         }
     } 
 }
@@ -100,8 +101,11 @@
 @media (min-width: 576px) and (max-width: 767px) { 
     #colaborate-section{
         #colaborate{
+            span{
+                padding-top: 40px;
+            }
             .more-about-us-button {
-                margin: 55px 280px;
+                margin: 55px 233px;
             }
             .description{
                 margin-bottom: 60px;
@@ -119,15 +123,68 @@
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) and (max-width: 991px) { 
-   
+   #colaborate-section{
+       #colaborate-background{
+           padding-left: 0px;
+           padding-top: 115px;
+           height: auto;
+       }
+       #colaborate{
+           padding-right: 15px;
+           padding-left: 15px;
+           span{
+               padding-top: 50px;
+           }
+           .description{
+               margin-bottom: 70px;
+           }
+           .more-about-us-button{
+               margin: 30px 110px;
+           }
+       }
+   }
 }
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) and (max-width: 1199px) { 
-    
+    #colaborate-section{
+        #colaborate-background{
+            padding-left: 0px;
+            padding-top: 163px;
+        }
+        #colaborate{
+            padding-right: 10px;
+            padding-left: 10px;
+            span{
+                padding-top: 150px;
+            }
+            .description{
+                margin-bottom: 70px;
+            }
+            .more-about-us-button{
+                margin: 70px 170px;
+            }
+        }
+    }
 }
 
 // Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { 
-    
+@media (min-width: 1200px) and (max-width: 1366px) { 
+    #colaborate-section{
+        #colaborate-background{
+            padding-left: 100px;
+            padding-top: 222px;
+        }
+        #colaborate{
+            span{
+                padding-top: 175px;
+            }
+            .description{
+                margin-bottom: 100px;
+            }
+            .more-about-us-button{
+                margin: 70px 205px;
+            }
+        }
+    }
 }

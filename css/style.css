@@ -532,20 +532,21 @@
 #colaborate-section #colaborate-background {
   padding-left: 0;
   padding-right: 0;
-  height: 100vh;
+  height: 100%;
   padding-top: 250px;
   padding-left: 100px; }
 
 #colaborate-section #colaborate {
   padding-left: 0;
-  padding-right: 0; }
+  padding-right: 0;
+  padding: 60px; }
   #colaborate-section #colaborate span {
     font-family: 'Lato', sans-serif;
     display: block;
     text-align: center;
     text-transform: capitalize;
     font-size: 35px;
-    padding-top: 300px;
+    padding-top: 125px;
     padding-bottom: 25px; }
   #colaborate-section #colaborate .description {
     font-family: "Lora", serif;
@@ -578,7 +579,7 @@
     background: #1996CE;
     border: #1996CE;
     text-transform: capitalize;
-    margin: 70px 325px;
+    margin: 70px 258px;
     color: white;
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
@@ -589,18 +590,20 @@
 
 @media (max-width: 575px) {
   #colaborate-section #colaborate .more-about-us-button {
-    margin: 55px 125px; }
+    margin: 55px 68px; }
   #colaborate-section #colaborate .description {
     margin-bottom: 60px; }
   #colaborate-section #colaborate span {
     padding-top: 0px; }
   #colaborate-section #colaborate-background {
     padding-left: 0px;
-    padding-top: 160px; } }
+    padding-top: 55px; } }
 
 @media (min-width: 576px) and (max-width: 767px) {
+  #colaborate-section #colaborate span {
+    padding-top: 40px; }
   #colaborate-section #colaborate .more-about-us-button {
-    margin: 55px 280px; }
+    margin: 55px 233px; }
   #colaborate-section #colaborate .description {
     margin-bottom: 60px; }
   #colaborate-section #colaborate .row {
@@ -608,6 +611,46 @@
     padding-right: 85px; }
   #colaborate-section #colaborate-background {
     padding-top: 100px; } }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #colaborate-section #colaborate-background {
+    padding-left: 0px;
+    padding-top: 115px;
+    height: auto; }
+  #colaborate-section #colaborate {
+    padding-right: 15px;
+    padding-left: 15px; }
+    #colaborate-section #colaborate span {
+      padding-top: 50px; }
+    #colaborate-section #colaborate .description {
+      margin-bottom: 70px; }
+    #colaborate-section #colaborate .more-about-us-button {
+      margin: 30px 110px; } }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  #colaborate-section #colaborate-background {
+    padding-left: 0px;
+    padding-top: 163px; }
+  #colaborate-section #colaborate {
+    padding-right: 10px;
+    padding-left: 10px; }
+    #colaborate-section #colaborate span {
+      padding-top: 150px; }
+    #colaborate-section #colaborate .description {
+      margin-bottom: 70px; }
+    #colaborate-section #colaborate .more-about-us-button {
+      margin: 70px 170px; } }
+
+@media (min-width: 1200px) and (max-width: 1366px) {
+  #colaborate-section #colaborate-background {
+    padding-left: 100px;
+    padding-top: 222px; }
+  #colaborate-section #colaborate span {
+    padding-top: 175px; }
+  #colaborate-section #colaborate .description {
+    margin-bottom: 100px; }
+  #colaborate-section #colaborate .more-about-us-button {
+    margin: 70px 205px; } }
 
 #footer-section {
   background: #202427;
@@ -858,6 +901,62 @@
     height: 40px;
     width: 160px;
     font-size: 13px; }
+
+@media (max-width: 575px) {
+  #services-section #services-text-button .title {
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px; }
+    #services-section #services-text-button .title span {
+      padding-top: 25px; }
+  #services-section #services-text-button .subtitle {
+    padding-left: 15px;
+    padding-bottom: 15px; }
+  #services-section #services-text-button .services-button {
+    margin-bottom: 15px; } }
+
+@media (min-width: 576px) and (max-width: 767px) {
+  #services-section #services-text-button .title {
+    padding-bottom: 25px;
+    padding-right: 10px; }
+    #services-section #services-text-button .title span {
+      padding-top: 25px;
+      padding-bottom: 10px; }
+  #services-section #services-text-button .subtitle {
+    padding-bottom: 5px; }
+    #services-section #services-text-button .subtitle span {
+      padding-bottom: 5px; }
+  #services-section #services-text-button .services-button {
+    margin-bottom: 25px;
+    margin-top: 15px; } }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #services-section #services-text-button .title {
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px; }
+    #services-section #services-text-button .title span {
+      padding-top: 0px;
+      padding-bottom: 5px;
+      font-size: 28px; }
+  #services-section #services-text-button .subtitle {
+    padding-left: 10px;
+    padding-bottom: 10px; }
+    #services-section #services-text-button .subtitle .icons {
+      margin-right: 10px; } }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  #services-section #services-text-button .title {
+    padding-bottom: 0px; }
+    #services-section #services-text-button .title span {
+      padding-top: 10px;
+      padding-bottom: 0px; }
+  #services-section #services-text-button .subtitle {
+    padding-bottom: 10px; } }
+
+@media (min-width: 1200px) {
+  #services-section #services-text-button .title span {
+    padding-top: 120px; } }
 
 #staff-section .title {
   font-family: 'Lato', sans-serif;

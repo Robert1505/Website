@@ -55,25 +55,105 @@
 
 // Extra small devices
 @media (max-width: 575px)  { 
-
+    #services-section{
+        #services-text-button{
+            .title {
+                padding-bottom: 15px;
+                padding-left: 15px;
+                padding-right: 15px;
+                span{
+                    padding-top: 25px;
+                }
+            }
+            .subtitle{
+                padding-left: 15px;
+                padding-bottom: 15px;
+            }
+            .services-button{
+                margin-bottom: 15px;
+            }
+        }
+    }
 }
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) and (max-width: 767px) { 
-    
+    #services-section{
+        #services-text-button{
+            .title{
+                padding-bottom: 25px;
+                padding-right: 10px;
+                span{
+                    padding-top: 25px;
+                    padding-bottom: 10px;
+                }
+            }
+            .subtitle{
+                padding-bottom: 5px;
+                span{
+                    padding-bottom: 5px;
+                }
+            }
+            .services-button{
+                margin-bottom: 25px;
+                margin-top: 15px;
+            }
+        }
+    }
 }
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) and (max-width: 991px) { 
-   
+    #services-section{
+        #services-text-button{
+            .title{
+                padding-bottom: 10px;
+                padding-left: 10px;
+                padding-right: 10px;
+                span {
+                    padding-top: 0px;
+                    padding-bottom: 5px;
+                    font-size: 28px;
+                }
+            }  
+            .subtitle{
+                padding-left: 10px;
+                padding-bottom: 10px;
+                .icons{
+                    margin-right: 10px;
+                }
+            } 
+        }
+    }
 }
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) and (max-width: 1199px) { 
-    
+    #services-section{
+        #services-text-button{
+            .title{
+                padding-bottom: 0px;
+                span{
+                    padding-top: 10px;
+                    padding-bottom: 0px;
+                }
+            }
+            .subtitle{
+                padding-bottom: 10px;
+            }
+        }
+    }
 }
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { 
-    
+    #services-section{
+        #services-text-button{
+            .title{
+                span{
+                    padding-top: 120px;
+                }
+            }
+        }
+    }
 }
