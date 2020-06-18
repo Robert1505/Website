@@ -422,82 +422,55 @@
     height: auto; }
   .benefits-section .benefits-grey-background #banner1 {
     padding-top: 0px;
-    margin-top: -45px; }
+    margin-top: 0px; }
     .benefits-section .benefits-grey-background #banner1 .text1 {
-      padding-left: 0;
-      padding-right: 0; }
-    .benefits-section .benefits-grey-background #banner1 .text2 {
-      padding-left: 0;
-      padding-right: 0; }
-    .benefits-section .benefits-grey-background #banner1 .text3 {
-      padding-left: 0;
-      padding-right: 0; }
+      padding-left: 5px;
+      padding-right: 5px; }
+      .benefits-section .benefits-grey-background #banner1 .text1 .fa {
+        padding-top: 30px; }
   .benefits-section .benefits-grey-background #banner2 {
     padding-top: 0px;
-    margin-top: -45px; }
-    .benefits-section .benefits-grey-background #banner2 .text1 {
-      padding-left: 0;
-      padding-right: 0; }
+    margin-top: 0px; }
     .benefits-section .benefits-grey-background #banner2 .text2 {
-      padding-left: 0;
-      padding-right: 0; }
-    .benefits-section .benefits-grey-background #banner2 .text3 {
-      padding-left: 0;
-      padding-right: 0; }
+      padding-left: 5px;
+      padding-right: 5px; }
+      .benefits-section .benefits-grey-background #banner2 .text2 .fa {
+        padding-top: 30px; }
   .benefits-section .benefits-grey-background #banner3 {
     padding-top: 0px;
-    margin-top: -45px; }
-    .benefits-section .benefits-grey-background #banner3 .text1 {
-      padding-left: 0;
-      padding-right: 0; }
-    .benefits-section .benefits-grey-background #banner3 .text2 {
-      padding-left: 0;
-      padding-right: 0; }
+    margin-top: 0px; }
     .benefits-section .benefits-grey-background #banner3 .text3 {
-      padding-left: 0;
-      padding-right: 0; } }
+      padding-left: 5px;
+      padding-right: 5px; }
+      .benefits-section .benefits-grey-background #banner3 .text3 .fa {
+        padding-top: 30px; } }
 
 @media (min-width: 576px) and (max-width: 767px) {
   .benefits-section #benefits-title-text {
     padding-top: 50px; }
   .benefits-section #benefits-background {
     height: auto; }
-  .benefits-section .benefits-grey-background #banner1 {
-    padding-top: 0px;
-    margin-top: -100px; }
-    .benefits-section .benefits-grey-background #banner1 .text1 {
-      padding-left: 0;
-      padding-right: 0; }
-    .benefits-section .benefits-grey-background #banner1 .text2 {
-      padding-left: 0;
-      padding-right: 0; }
-    .benefits-section .benefits-grey-background #banner1 .text3 {
-      padding-left: 0;
-      padding-right: 0; }
-  .benefits-section .benefits-grey-background #banner2 {
-    padding-top: 0px;
-    margin-top: -100px; }
-    .benefits-section .benefits-grey-background #banner2 .text1 {
-      padding-left: 0;
-      padding-right: 0; }
-    .benefits-section .benefits-grey-background #banner2 .text2 {
-      padding-left: 0;
-      padding-right: 0; }
-    .benefits-section .benefits-grey-background #banner2 .text3 {
-      padding-left: 0;
-      padding-right: 0; }
-  .benefits-section .benefits-grey-background #banner3 {
-    padding-top: 0px;
-    margin-top: -100px; }
-    .benefits-section .benefits-grey-background #banner3 .text1 {
-      padding-left: 0;
-      padding-right: 0; }
-    .benefits-section .benefits-grey-background #banner3 .text2 {
-      padding-left: 0;
-      padding-right: 0; }
-    .benefits-section .benefits-grey-background #banner3 .text3 {
-      padding-left: 0;
-      padding-right: 0; } }
+  .benefits-section .benefits-grey-background {
+    width: 100%;
+    max-width: 100%; }
+    .benefits-section .benefits-grey-background #banner1 {
+      padding-top: 0px;
+      margin-top: -100px; }
+      .benefits-section .benefits-grey-background #banner1 .text1 {
+        padding-left: 3px;
+        padding-right: 3px; }
+    .benefits-section .benefits-grey-background #banner2 {
+      padding-top: 0px;
+      margin-top: -100px; }
+      .benefits-section .benefits-grey-background #banner2 .text2 {
+        padding-left: 3px;
+        padding-right: 3px; }
+    .benefits-section .benefits-grey-background #banner3 {
+      padding-top: 0px;
+      margin-top: -100px; }
+      .benefits-section .benefits-grey-background #banner3 .text3 {
+        padding-left: 3px;
+        padding-right: 3px; } }
 
 @media (min-width: 768px) and (max-width: 991px) {
   .benefits-section #benefits-title-text {
@@ -507,12 +480,39 @@
   .benefits-section .benefits-grey-background #banner1 {
     padding-top: 0px;
     margin-top: -100px; }
+    .benefits-section .benefits-grey-background #banner1 .text1 {
+      padding-left: 5px;
+      padding-right: 5px; }
+    .benefits-section .benefits-grey-background #banner1 .text2 {
+      padding-left: 5px;
+      padding-right: 5px; }
+    .benefits-section .benefits-grey-background #banner1 .text3 {
+      padding-left: 5px;
+      padding-right: 5px; }
   .benefits-section .benefits-grey-background #banner2 {
     padding-top: 0px;
     margin-top: -100px; }
+    .benefits-section .benefits-grey-background #banner2 .text1 {
+      padding-left: 5px;
+      padding-right: 5px; }
+    .benefits-section .benefits-grey-background #banner2 .text2 {
+      padding-left: 5px;
+      padding-right: 5px; }
+    .benefits-section .benefits-grey-background #banner2 .text3 {
+      padding-left: 5px;
+      padding-right: 5px; }
   .benefits-section .benefits-grey-background #banner3 {
     padding-top: 0px;
-    margin-top: -100px; } }
+    margin-top: -100px; }
+    .benefits-section .benefits-grey-background #banner3 .text1 {
+      padding-left: 5px;
+      padding-right: 5px; }
+    .benefits-section .benefits-grey-background #banner3 .text2 {
+      padding-left: 5px;
+      padding-right: 5px; }
+    .benefits-section .benefits-grey-background #banner3 .text3 {
+      padding-left: 5px;
+      padding-right: 5px; } }
 
 @media (min-width: 992px) and (max-width: 1199px) {
   .benefits-section #benefits-title-text {
@@ -596,8 +596,7 @@
   #colaborate-section #colaborate span {
     padding-top: 0px; }
   #colaborate-section #colaborate-background {
-    padding-left: 0px;
-    padding-top: 55px; } }
+    display: none; } }
 
 @media (min-width: 576px) and (max-width: 767px) {
   #colaborate-section #colaborate span {
@@ -610,7 +609,7 @@
     padding-left: 85px;
     padding-right: 85px; }
   #colaborate-section #colaborate-background {
-    padding-top: 100px; } }
+    display: none; } }
 
 @media (min-width: 768px) and (max-width: 991px) {
   #colaborate-section #colaborate-background {
@@ -731,6 +730,99 @@
       margin-right: 15px;
       float: left; }
 
+@media (max-width: 575px) {
+  #footer-section .left-side {
+    font-size: 17px; }
+    #footer-section .left-side .email {
+      padding-bottom: 30px; }
+  #footer-section .subscription .subscribe-title {
+    padding-top: 0px;
+    text-align: center; }
+  #footer-section .subscription form input {
+    margin-left: 35px; }
+  #footer-section .subscription .update {
+    text-align: center; } }
+
+@media (min-width: 576px) and (max-width: 767px) {
+  #footer-section .left-side {
+    font-size: 17px; }
+    #footer-section .left-side .email {
+      padding-bottom: 30px; }
+  #footer-section .subscription .subscribe-title {
+    padding-top: 0px;
+    text-align: center; }
+  #footer-section .subscription form input {
+    margin-left: 190px; }
+  #footer-section .subscription .update {
+    text-align: center; }
+  #footer-section .news .title {
+    padding-top: 185px; }
+  #footer-section .external .padding {
+    padding-left: 170px; } }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #footer-section .news .news-title {
+    font-size: 13px;
+    padding-bottom: 10px; }
+  #footer-section .news .subtitle {
+    font-size: 11px; }
+  #footer-section .subscription form button {
+    width: 140px; }
+  #footer-section .external .copyright-title {
+    text-align: center; }
+  #footer-section .external .padding {
+    padding-left: 100px; } }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  #footer-section .left-side .description {
+    font-size: 20px; }
+  #footer-section .left-side .address {
+    font-size: 15px; }
+  #footer-section .left-side .phone {
+    font-size: 15px; }
+  #footer-section .left-side .email {
+    font-size: 15px;
+    padding-bottom: 55px; }
+  #footer-section .news .title {
+    padding-top: 95px; }
+  #footer-section .subscription .subscribe-title {
+    padding-top: 95px; }
+  #footer-section .subscription form input {
+    margin-left: 15px; }
+  #footer-section .external .copyright-title {
+    text-align: center; }
+  #footer-section .external .padding {
+    padding-left: 165px; } }
+
+@media (min-width: 1200px) {
+  #footer-section .padding {
+    padding-left: 30px; }
+  #footer-section .left-side .description {
+    font-size: 15px; }
+  #footer-section .left-side .address {
+    font-size: 13px; }
+  #footer-section .left-side .phone {
+    font-size: 13px; }
+  #footer-section .left-side .email {
+    font-size: 13px;
+    padding-bottom: 55px; }
+  #footer-section .news .title {
+    padding-top: 132px;
+    font-size: 17px; }
+  #footer-section .news .news-title {
+    font-size: 15px; }
+  #footer-section .news .subtitle {
+    font-size: 13px; }
+  #footer-section .subscription .subscribe-title {
+    padding-top: 132px;
+    font-size: 17px; }
+  #footer-section .subscription form input {
+    margin-left: 15px; }
+  #footer-section .external .copyright-title {
+    text-align: center; }
+  #footer-section .external .padding {
+    padding-left: 245px; } }
+
 #news-section .news-title {
   font-family: 'Lato', sans-serif;
   font-size: 50px;
@@ -808,6 +900,35 @@
     width: 160px;
     font-size: 13px; }
 
+@media (max-width: 575px) {
+  #request-section .title-subtitle {
+    font-size: 15px; }
+    #request-section .title-subtitle .title {
+      font-size: 25px; }
+  #request-section button {
+    margin-top: 85px;
+    font-size: 10px; } }
+
+@media (min-width: 576px) and (max-width: 767px) {
+  #request-section button {
+    margin-top: 75px; } }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #request-section .title-subtitle .title {
+    font-size: 24px; }
+  #request-section button {
+    margin-left: 30px; } }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  #request-section .title-subtitle {
+    padding-left: 35px; }
+  #request-section button {
+    margin-left: 45px; } }
+
+@media (min-width: 1200px) {
+  #request-section .title-subtitle {
+    padding-left: 90px; } }
+
 #reviews-section {
   background: #F8F8F8;
   padding-bottom: 20px; }
@@ -854,6 +975,12 @@
       padding-left: 80px;
       padding-right: 80px;
       padding-top: 80px; }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #reviews-section .title-subtitle {
+    padding-top: 90px; }
+  #reviews-section .photos .image {
+    padding: 0; } }
 
 #services-section #services-background {
   padding-left: 0;
@@ -913,12 +1040,14 @@
     padding-left: 15px;
     padding-bottom: 15px; }
   #services-section #services-text-button .services-button {
-    margin-bottom: 15px; } }
+    margin-bottom: 15px; }
+  #services-section .row #services-background {
+    display: none; } }
 
 @media (min-width: 576px) and (max-width: 767px) {
   #services-section #services-text-button .title {
     padding-bottom: 25px;
-    padding-right: 10px; }
+    padding-right: 35px; }
     #services-section #services-text-button .title span {
       padding-top: 25px;
       padding-bottom: 10px; }
@@ -928,20 +1057,24 @@
       padding-bottom: 5px; }
   #services-section #services-text-button .services-button {
     margin-bottom: 25px;
-    margin-top: 15px; } }
+    margin-top: 15px; }
+  #services-section .row #services-background {
+    display: none; } }
 
 @media (min-width: 768px) and (max-width: 991px) {
   #services-section #services-text-button .title {
     padding-bottom: 10px;
     padding-left: 10px;
-    padding-right: 10px; }
+    padding-right: 10px;
+    font-size: 13px; }
     #services-section #services-text-button .title span {
       padding-top: 0px;
       padding-bottom: 5px;
       font-size: 28px; }
   #services-section #services-text-button .subtitle {
     padding-left: 10px;
-    padding-bottom: 10px; }
+    padding-bottom: 10px;
+    font-size: 13px; }
     #services-section #services-text-button .subtitle .icons {
       margin-right: 10px; } }
 

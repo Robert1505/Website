@@ -97,25 +97,191 @@
 
 // Extra small devices
 @media (max-width: 575px)  { 
-
+    #footer-section{
+        .left-side{
+            font-size: 17px;
+            .email{
+                padding-bottom: 30px;
+            }
+        }
+        .subscription{
+            .subscribe-title{
+                padding-top: 0px;
+                text-align: center;
+            }
+            form{
+                input{
+                    margin-left: 35px;
+                }
+            }
+            .update{
+                text-align: center;
+            }
+        }
+    }
 }
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) and (max-width: 767px) { 
-    
+    #footer-section{
+        .left-side{
+            font-size: 17px;
+            .email{
+                padding-bottom: 30px;
+            }
+        }
+        .subscription{
+            .subscribe-title{
+                padding-top: 0px;
+                text-align: center;
+            }
+            form{
+                input{
+                    margin-left: 190px;
+                }
+            }
+            .update{
+                text-align: center;
+            }
+        }
+        .news{
+            .title{
+                padding-top: 185px;
+            }
+        }
+        .external{
+            .padding{
+                padding-left: 170px;
+            }
+        }
+    }
 }
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) and (max-width: 991px) { 
-   
+    #footer-section{
+        .news{
+            .news-title {
+                font-size: 13px;
+                padding-bottom: 10px;
+            }
+            .subtitle{
+                font-size: 11px;
+            }
+        }
+        .subscription{
+            form{
+                button{
+                    width: 140px;
+                }
+            }
+        }
+        .external{
+            .copyright-title{
+                text-align: center;
+            }
+            .padding{
+                padding-left: 100px;
+            }
+        }
+    } 
 }
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) and (max-width: 1199px) { 
-    
+    #footer-section{
+        .left-side{
+            .description {
+                font-size: 20px;
+            }
+            .address{
+                font-size: 15px;
+            }
+            .phone{
+                font-size: 15px;
+            }
+            .email{
+                font-size: 15px;
+                padding-bottom: 55px;
+            }
+        }
+        .news{
+            .title {
+                padding-top: 95px;
+            }
+        } 
+        .subscription{
+            .subscribe-title {
+                padding-top: 95px;
+            }
+            form{
+                input {
+                    margin-left: 15px;
+                }
+            }
+        }
+        .external{
+            .copyright-title{
+                text-align: center;
+            }
+            .padding{
+                padding-left: 165px;
+            }
+        }
+    } 
 }
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { 
-    
+    #footer-section{
+        .padding{
+            padding-left: 30px;
+        }
+        .left-side{
+            .description{
+                font-size: 15px;
+            }
+            .address{
+                font-size: 13px;
+            }
+            .phone{
+                font-size: 13px;
+            }
+            .email{
+                font-size: 13px;
+                padding-bottom: 55px;
+            }
+        }
+        .news{
+            .title{
+                padding-top: 132px;
+                font-size: 17px;
+            }
+            .news-title{
+                font-size: 15px;
+            }
+            .subtitle{
+                font-size: 13px;
+            }
+        }
+        .subscription{
+            .subscribe-title{
+                padding-top: 132px;
+                font-size: 17px;
+            }
+            form{
+                input{
+                    margin-left: 15px;
+                }
+            }
+        }
+        .external{
+            .copyright-title{
+                text-align: center;
+            }
+            .padding{
+                padding-left: 245px;
+            }
+        }
+    }
 }

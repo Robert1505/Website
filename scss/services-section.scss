@@ -73,6 +73,11 @@
                 margin-bottom: 15px;
             }
         }
+        .row{
+            #services-background{
+                display: none;
+            }
+        }
     }
 }
 
@@ -82,7 +87,7 @@
         #services-text-button{
             .title{
                 padding-bottom: 25px;
-                padding-right: 10px;
+                padding-right: 35px;
                 span{
                     padding-top: 25px;
                     padding-bottom: 10px;
@@ -99,6 +104,11 @@
                 margin-top: 15px;
             }
         }
+        .row{
+            #services-background{
+                display: none;
+            }
+        }
     }
 }
 
@@ -110,6 +120,7 @@
                 padding-bottom: 10px;
                 padding-left: 10px;
                 padding-right: 10px;
+                font-size: 13px;
                 span {
                     padding-top: 0px;
                     padding-bottom: 5px;
@@ -119,6 +130,7 @@
             .subtitle{
                 padding-left: 10px;
                 padding-bottom: 10px;
+                font-size: 13px;
                 .icons{
                     margin-right: 10px;
                 }
