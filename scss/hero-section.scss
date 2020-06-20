@@ -203,29 +203,40 @@
                 .navbar-toggler{
                     background: whitesmoke;
                 }
+                a{
+                    img{
+                        height: 60px;
+                    }
+                }
+            }
+            .social-media{
+                padding-left: 190px;
             }
         }
         .carousel{
             ol{
-                z-index: 1;
+                z-index: 9999;
             }
             .carousel-inner{
                 .carousel-item{
+                    .carousel-caption{
+                        display: block !important;
+                    }
                     .first-title{
-                        z-index: 1;
+                        z-index: 999;
                     }
                     .second-title{
-                        z-index: 1;
+                        z-index: 999;
                     }
                     .third-title{
-                        z-index: 1;
+                        z-index: 999;
                     }
                     .buttons{
-                        z-index: 1;
+                        z-index: 999;
                     }
                 }
             }
-        }
+        } 
     }
     
 }
@@ -243,12 +254,15 @@
                 .navbar-toggler{
                     background: whitesmoke
                 }
+                a{
+                    img{
+                        height: 60px;
+                    }
+                }
             }
         }
         .carousel{
-            ol{
-                z-index: 1;
-            }
+             z-index: 1;
         }
     }
 }

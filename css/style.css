@@ -187,16 +187,22 @@
     z-index: 99999999999999999999; }
   #hero-section header nav .navbar-toggler {
     background: whitesmoke; }
+  #hero-section header nav a img {
+    height: 60px; }
+  #hero-section header .social-media {
+    padding-left: 190px; }
   #hero-section .carousel ol {
-    z-index: 1; }
+    z-index: 9999; }
+  #hero-section .carousel .carousel-inner .carousel-item .carousel-caption {
+    display: block !important; }
   #hero-section .carousel .carousel-inner .carousel-item .first-title {
-    z-index: 1; }
+    z-index: 999; }
   #hero-section .carousel .carousel-inner .carousel-item .second-title {
-    z-index: 1; }
+    z-index: 999; }
   #hero-section .carousel .carousel-inner .carousel-item .third-title {
-    z-index: 1; }
+    z-index: 999; }
   #hero-section .carousel .carousel-inner .carousel-item .buttons {
-    z-index: 1; } }
+    z-index: 999; } }
 
 @media (min-width: 768px) and (max-width: 991px) {
   #hero-section header nav .collapse {
@@ -205,7 +211,9 @@
     z-index: 999; }
   #hero-section header nav .navbar-toggler {
     background: whitesmoke; }
-  #hero-section .carousel ol {
+  #hero-section header nav a img {
+    height: 60px; }
+  #hero-section .carousel {
     z-index: 1; } }
 
 @media (min-width: 992px) and (max-width: 1199px) {
