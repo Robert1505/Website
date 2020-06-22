@@ -187,7 +187,117 @@
 
 // Extra small devices
 @media (max-width: 575px)  { 
+    #hero-section{
+        header{
+            nav{
+                .collapse{
+                    background: grey;
+                    position: relative;
+                    z-index: 99999999999999999999;
+                }
+                .navbar-toggler{
+                    background: whitesmoke;
+                }
+                a{
+                    img{
+                        height: 50px;
+                    }
+                }
+                .logo{
+                    margin-top: 0px;
+                }
+                ul{
+                    margin-left: 160px;
+                }
+            }
+            .social-media{
+                padding-left: 27px;
+            }
+        }
+        .carousel{
+            z-index: 1;
+            ol{
+                z-index: 9999;
+            }
+            .carousel-inner{
+                .carousel-item{
+                    .carousel-caption{
+                        display: block !important;
 
+                        .title-and-buttons{
+                            .first-title{
+                                font-size: 10px;
+                                z-index: 999;
+                            }
+                            .second-title{
+                                font-size: 24px;
+                                z-index: 999;
+                            }
+                            .third-title{
+                                font-size: 10px;
+                                z-index: 999;
+                            }
+                            .buttons{
+                                z-index: 999;
+                                .about-us-button{
+                                    width: 135px;
+                                }
+                                .presentation-button{
+                                    width: 135px;
+                                }
+                            }
+                        }
+                        .title-and-buttons-2{
+                            .first-title{
+                                font-size: 10px;
+                                z-index: 999;
+                            }
+                            .second-title{
+                                font-size: 24px;
+                                z-index: 999;
+                            }
+                            .third-title{
+                                font-size: 10px;
+                                z-index: 999;
+                            }
+                            .buttons{
+                                z-index: 999;
+                                .mission-button{
+                                    width: 135px;
+                                }
+                                .award-button{
+                                    width: 135px;
+                                }
+                            }
+                        }
+                        .title-and-buttons-3{
+                            .first-title{
+                                font-size: 10px;
+                                z-index: 999;
+                            }
+                            .second-title{
+                                font-size: 24px;
+                                z-index: 999;
+                            }
+                            .third-title{
+                                font-size: 10px;
+                                z-index: 999;
+                            }
+                            .buttons{
+                                z-index: 999;
+                                .services-button{
+                                    width: 135px;
+                                }
+                                .contact-button{
+                                    width: 135px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        } 
+    }
 }
 
 // Small devices (landscape phones, 576px and up)
@@ -196,7 +306,7 @@
         header{
             nav{
                 .collapse{
-                    background: rgba(100,100,100,0.75);
+                    background: grey;
                     position: relative;
                     z-index: 99999999999999999999;
                 }
@@ -214,6 +324,7 @@
             }
         }
         .carousel{
+            z-index: 1;
             ol{
                 z-index: 9999;
             }
@@ -258,6 +369,9 @@
                     img{
                         height: 60px;
                     }
+                }
+                .social-media{
+                    padding-left: 240px;
                 }
             }
         }

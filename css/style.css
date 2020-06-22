@@ -180,9 +180,76 @@
     width: 160px;
     font-size: 13px; }
 
+@media (max-width: 575px) {
+  #hero-section header nav .collapse {
+    background: grey;
+    position: relative;
+    z-index: 99999999999999999999; }
+  #hero-section header nav .navbar-toggler {
+    background: whitesmoke; }
+  #hero-section header nav a img {
+    height: 50px; }
+  #hero-section header nav .logo {
+    margin-top: 0px; }
+  #hero-section header nav ul {
+    margin-left: 160px; }
+  #hero-section header .social-media {
+    padding-left: 27px; }
+  #hero-section .carousel {
+    z-index: 1; }
+    #hero-section .carousel ol {
+      z-index: 9999; }
+    #hero-section .carousel .carousel-inner .carousel-item .carousel-caption {
+      display: block !important; }
+      #hero-section .carousel .carousel-inner .carousel-item .carousel-caption .title-and-buttons .first-title {
+        font-size: 10px;
+        z-index: 999; }
+      #hero-section .carousel .carousel-inner .carousel-item .carousel-caption .title-and-buttons .second-title {
+        font-size: 24px;
+        z-index: 999; }
+      #hero-section .carousel .carousel-inner .carousel-item .carousel-caption .title-and-buttons .third-title {
+        font-size: 10px;
+        z-index: 999; }
+      #hero-section .carousel .carousel-inner .carousel-item .carousel-caption .title-and-buttons .buttons {
+        z-index: 999; }
+        #hero-section .carousel .carousel-inner .carousel-item .carousel-caption .title-and-buttons .buttons .about-us-button {
+          width: 135px; }
+        #hero-section .carousel .carousel-inner .carousel-item .carousel-caption .title-and-buttons .buttons .presentation-button {
+          width: 135px; }
+      #hero-section .carousel .carousel-inner .carousel-item .carousel-caption .title-and-buttons-2 .first-title {
+        font-size: 10px;
+        z-index: 999; }
+      #hero-section .carousel .carousel-inner .carousel-item .carousel-caption .title-and-buttons-2 .second-title {
+        font-size: 24px;
+        z-index: 999; }
+      #hero-section .carousel .carousel-inner .carousel-item .carousel-caption .title-and-buttons-2 .third-title {
+        font-size: 10px;
+        z-index: 999; }
+      #hero-section .carousel .carousel-inner .carousel-item .carousel-caption .title-and-buttons-2 .buttons {
+        z-index: 999; }
+        #hero-section .carousel .carousel-inner .carousel-item .carousel-caption .title-and-buttons-2 .buttons .mission-button {
+          width: 135px; }
+        #hero-section .carousel .carousel-inner .carousel-item .carousel-caption .title-and-buttons-2 .buttons .award-button {
+          width: 135px; }
+      #hero-section .carousel .carousel-inner .carousel-item .carousel-caption .title-and-buttons-3 .first-title {
+        font-size: 10px;
+        z-index: 999; }
+      #hero-section .carousel .carousel-inner .carousel-item .carousel-caption .title-and-buttons-3 .second-title {
+        font-size: 24px;
+        z-index: 999; }
+      #hero-section .carousel .carousel-inner .carousel-item .carousel-caption .title-and-buttons-3 .third-title {
+        font-size: 10px;
+        z-index: 999; }
+      #hero-section .carousel .carousel-inner .carousel-item .carousel-caption .title-and-buttons-3 .buttons {
+        z-index: 999; }
+        #hero-section .carousel .carousel-inner .carousel-item .carousel-caption .title-and-buttons-3 .buttons .services-button {
+          width: 135px; }
+        #hero-section .carousel .carousel-inner .carousel-item .carousel-caption .title-and-buttons-3 .buttons .contact-button {
+          width: 135px; } }
+
 @media (min-width: 576px) and (max-width: 767px) {
   #hero-section header nav .collapse {
-    background: rgba(100, 100, 100, 0.75);
+    background: grey;
     position: relative;
     z-index: 99999999999999999999; }
   #hero-section header nav .navbar-toggler {
@@ -191,18 +258,20 @@
     height: 60px; }
   #hero-section header .social-media {
     padding-left: 190px; }
-  #hero-section .carousel ol {
-    z-index: 9999; }
-  #hero-section .carousel .carousel-inner .carousel-item .carousel-caption {
-    display: block !important; }
-  #hero-section .carousel .carousel-inner .carousel-item .first-title {
-    z-index: 999; }
-  #hero-section .carousel .carousel-inner .carousel-item .second-title {
-    z-index: 999; }
-  #hero-section .carousel .carousel-inner .carousel-item .third-title {
-    z-index: 999; }
-  #hero-section .carousel .carousel-inner .carousel-item .buttons {
-    z-index: 999; } }
+  #hero-section .carousel {
+    z-index: 1; }
+    #hero-section .carousel ol {
+      z-index: 9999; }
+    #hero-section .carousel .carousel-inner .carousel-item .carousel-caption {
+      display: block !important; }
+    #hero-section .carousel .carousel-inner .carousel-item .first-title {
+      z-index: 999; }
+    #hero-section .carousel .carousel-inner .carousel-item .second-title {
+      z-index: 999; }
+    #hero-section .carousel .carousel-inner .carousel-item .third-title {
+      z-index: 999; }
+    #hero-section .carousel .carousel-inner .carousel-item .buttons {
+      z-index: 999; } }
 
 @media (min-width: 768px) and (max-width: 991px) {
   #hero-section header nav .collapse {
@@ -213,6 +282,8 @@
     background: whitesmoke; }
   #hero-section header nav a img {
     height: 60px; }
+  #hero-section header nav .social-media {
+    padding-left: 240px; }
   #hero-section .carousel {
     z-index: 1; } }
 
@@ -747,7 +818,7 @@
     padding-top: 0px;
     text-align: center; }
   #footer-section .subscription form input {
-    margin-left: 35px; }
+    margin-left: 17px; }
   #footer-section .subscription .update {
     text-align: center; } }
 
