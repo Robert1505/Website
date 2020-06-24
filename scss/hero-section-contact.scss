@@ -1,0 +1,420 @@
+#hero-section {
+
+    header{
+
+        width: 100%;
+        z-index : 2;
+
+        nav{
+            width: 100%;
+            background-color: transparent;
+
+            .logo{
+                margin-top: 15px;
+            }
+            ul{
+                margin-left: 330px;
+                margin-top: 25px;
+                li{
+                    a{
+                        float : left;
+                        font-size: 17px;
+                        font-weight: 600;
+                        list-style : none;
+                        margin-right: 10px;
+                        color : white;
+                    }
+                }
+            }
+        }
+        .social-media{
+            display: flex;
+            justify-content: flex-end;
+            color : white;
+
+            #search-button{
+                margin-right: 30px;
+            }
+            &-button{
+                float : left;
+                margin-right : 13px;
+                margin-top: 28px;
+            }
+            button{
+                background : transparent;
+                text-transform : uppercase;
+                color : white;
+                margin-left: 35px;
+                margin-top: 20px;
+                @include button;
+
+                .fa-paper-plane-o{
+                    margin-left : 5px;
+                }
+            }
+        }
+    }
+    .title-and-buttons{
+        display : flex;  
+        text-align: center;
+        justify-content : center;
+        flex-direction : column;
+
+        .buttons{
+            margin : 0 auto;
+            margin-top : 20px;
+        }
+        .first-title{
+            font-size : 13px;
+            color : white;
+            text-transform : uppercase;
+            font-family : $primary-font;
+        }
+        .second-title{
+            font-size : 60px;
+            color : white;
+            text-transform : uppercase;
+            font-weight : 600;
+            font-family : $primary-font;
+        }
+        .third-title{
+            font-size : 15px;
+            color : white;
+            font-family : $secondary-font;
+        }
+        .about-us-button{
+            background : $green;
+            text-transform : capitalize;
+            border-color : transparent !important;
+            margin-right : 10px;
+            @include button;
+        }
+        .presentation-button{
+            background : $blue;
+            border-color : transparent !important;
+            text-transform : capitalize;
+            color : black;
+            @include button;
+        }
+    }
+    .title-and-buttons-2{
+        display : flex;  
+        text-align: center;
+        justify-content : center;
+        flex-direction : column;
+
+        .buttons{
+            margin : 0 auto;
+            margin-top : 20px;
+        }
+        .first-title{
+            font-size : 13px;
+            color : white;
+            text-transform : uppercase;
+            font-family : $primary-font;
+        }
+        .second-title{
+            font-size : 60px;
+            color : white;
+            text-transform : uppercase;
+            font-weight : 600;
+            font-family : $primary-font;
+        }
+        .third-title{
+            font-size : 15px;
+            color : white;
+            font-family : $secondary-font;
+        }
+        .mission-button{
+            background : $blue;
+            text-transform : capitalize;
+            border-color : transparent !important;
+            margin-right : 10px;
+            @include button;
+        }
+        .award-button{
+            background : $green;
+            border-color : transparent !important;
+            text-transform : capitalize;
+            color : black;
+            @include button;
+        }
+    }
+    .title-and-buttons-3{
+        display : flex;  
+        text-align: center;
+        justify-content : center;
+        flex-direction : column;
+
+        .buttons{
+            margin : 0 auto;
+            margin-top : 20px;
+        }
+        .first-title{
+            font-size : 13px;
+            color : white;
+            text-transform : uppercase;
+            font-family : $primary-font;
+        }
+        .second-title{
+            font-size : 60px;
+            color : white;
+            text-transform : uppercase;
+            font-weight : 600;
+            font-family : $primary-font;
+        }
+        .third-title{
+            font-size : 15px;
+            color : white;
+            font-family : $secondary-font;
+        }
+        .services-button{
+            background : $green;
+            text-transform : capitalize;
+            border-color : transparent !important;
+            margin-right : 10px;
+            @include button;
+        }
+        .contact-button{
+            background : $blue;
+            border-color : transparent !important;
+            text-transform : capitalize;
+            color : black;
+            @include button;
+        }
+    }
+}
+
+// Extra small devices
+@media (max-width: 575px)  { 
+    #hero-section{
+        header{
+            nav{
+                .collapse{
+                    background: grey;
+                    position: relative;
+                    z-index: 99999999999999999999;
+                }
+                .navbar-toggler{
+                    background: whitesmoke;
+                }
+                a{
+                    img{
+                        height: 50px;
+                    }
+                }
+                .logo{
+                    margin-top: 0px;
+                }
+                ul{
+                    margin-left: 160px;
+                }
+            }
+            .social-media{
+                padding-left: 27px;
+            }
+        }
+        .carousel{
+            z-index: 1;
+            ol{
+                z-index: 9999;
+            }
+            .carousel-inner{
+                .carousel-item{
+                    .carousel-caption{
+                        display: block !important;
+
+                        .title-and-buttons{
+                            .first-title{
+                                font-size: 10px;
+                                z-index: 999;
+                            }
+                            .second-title{
+                                font-size: 24px;
+                                z-index: 999;
+                            }
+                            .third-title{
+                                font-size: 10px;
+                                z-index: 999;
+                            }
+                            .buttons{
+                                z-index: 999;
+                                .about-us-button{
+                                    width: 135px;
+                                }
+                                .presentation-button{
+                                    width: 135px;
+                                }
+                            }
+                        }
+                        .title-and-buttons-2{
+                            .first-title{
+                                font-size: 10px;
+                                z-index: 999;
+                            }
+                            .second-title{
+                                font-size: 24px;
+                                z-index: 999;
+                            }
+                            .third-title{
+                                font-size: 10px;
+                                z-index: 999;
+                            }
+                            .buttons{
+                                z-index: 999;
+                                .mission-button{
+                                    width: 135px;
+                                }
+                                .award-button{
+                                    width: 135px;
+                                }
+                            }
+                        }
+                        .title-and-buttons-3{
+                            .first-title{
+                                font-size: 10px;
+                                z-index: 999;
+                            }
+                            .second-title{
+                                font-size: 24px;
+                                z-index: 999;
+                            }
+                            .third-title{
+                                font-size: 10px;
+                                z-index: 999;
+                            }
+                            .buttons{
+                                z-index: 999;
+                                .services-button{
+                                    width: 135px;
+                                }
+                                .contact-button{
+                                    width: 135px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        } 
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767px) { 
+    #hero-section{
+        header{
+            nav{
+                .collapse{
+                    background: grey;
+                    position: relative;
+                    z-index: 99999999999999999999;
+                }
+                .navbar-toggler{
+                    background: whitesmoke;
+                }
+                a{
+                    img{
+                        height: 60px;
+                    }
+                }
+            }
+            .social-media{
+                padding-left: 190px;
+            }
+        }
+        .carousel{
+            z-index: 1;
+            ol{
+                z-index: 9999;
+            }
+            .carousel-inner{
+                .carousel-item{
+                    .carousel-caption{
+                        display: block !important;
+                    }
+                    .first-title{
+                        z-index: 999;
+                    }
+                    .second-title{
+                        z-index: 999;
+                    }
+                    .third-title{
+                        z-index: 999;
+                    }
+                    .buttons{
+                        z-index: 999;
+                    }
+                }
+            }
+        } 
+    }
+    
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991px) { 
+    #hero-section{
+        header{
+            nav{
+                .collapse{
+                    background: rgba(100,100,100,1);
+                    position: relative;
+                    z-index: 999;
+                }
+                .navbar-toggler{
+                    background: whitesmoke
+                }
+                a{
+                    img{
+                        height: 60px;
+                    }
+                }
+                .social-media{
+                    padding-left: 240px;
+                }
+            }
+        }
+        .carousel{
+             z-index: 1;
+        }
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199px) { 
+    #hero-section{ 
+        header{
+            nav{
+                ul {
+                    margin-left: 60px;
+                    li{
+                        a{
+                            font-size: 14px;
+                        }
+                    }
+                }
+                .social-media{
+                    &-button{
+                        i{
+                            font-size: 1em;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+    #hero-section{ 
+        header{
+            nav{
+                ul {
+                    margin-left: 250px;
+                }
+            }
+        }
+    }
+}

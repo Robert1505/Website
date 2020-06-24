@@ -7,8 +7,15 @@ function css(){
     .pipe(dest("./css"));
 }
 
+function cssContact(){
+    return src("./scss/style-contact.scss")
+    .pipe(sass())
+    .pipe(dest("./css"));
+}
+
 function watchCode(){
     watch("./scss/*.scss" , css);
+    watch("./scss/*.scss" , cssContact)
 }
 
 function getJs(){

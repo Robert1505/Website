@@ -14,21 +14,6 @@ $secondary-font : 'Lora', serif;;
     padding-left : 0;
     padding-right : 0;
 }
-
-@import "hero-section";
-@import "mission-section";
-@import "about-section";
-@import "benefits-section";
-@import "colaborate-section";
-@import "footer-section";
-@import "news-section";
-@import "ranking-section";
-@import "request-section";
-@import "reviews-section";
-@import "services-section";
-@import "staff-section";
-
-
 body {
     margin : 0;
     padding : 0;
@@ -87,19 +72,9 @@ body {
     -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
   }
-  
-  
 
 
-
-
-
-
-
-
-
-
-
-
-
+@import "contact-section";
+@import "footer-section";
+@import "hero-section-contact";
 

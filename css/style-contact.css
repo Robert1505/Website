@@ -1,0 +1,572 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform; }
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+  transform: scale(1.1); }
+
+/* Pulse */
+@-webkit-keyframes hvr-pulse {
+  25% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); }
+  75% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9); } }
+
+@keyframes hvr-pulse {
+  25% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); }
+  75% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9); } }
+
+.hvr-pulse {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0); }
+
+.hvr-pulse:hover, .hvr-pulse:focus, .hvr-pulse:active {
+  -webkit-animation-name: hvr-pulse;
+  animation-name: hvr-pulse;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite; }
+
+#contact-section {
+  background-color: #F7F7F7; }
+  #contact-section .title {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 50px; }
+  #contact-section .address {
+    font-family: "Lora", serif;
+    text-align: center;
+    font-size: 14px;
+    padding-top: 20px;
+    padding-bottom: 60px; }
+  #contact-section .description {
+    font-family: "Lora", serif;
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 30px; }
+  #contact-section .phone {
+    text-align: center; }
+    #contact-section .phone .icon {
+      font-size: 60px;
+      display: block; }
+  #contact-section .map-marker {
+    text-align: center; }
+    #contact-section .map-marker .icon {
+      font-size: 60px;
+      display: block; }
+  #contact-section .message {
+    text-align: center; }
+    #contact-section .message .icon {
+      font-size: 40px;
+      display: block; }
+  #contact-section button {
+    background-color: #A4A8AC;
+    border: #A4A8AC !important;
+    border-radius: 7px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    border: solid 1px;
+    height: 40px;
+    width: 160px;
+    font-size: 13px; }
+
+#map-section {
+  padding-left: 0;
+  padding-right: 0; }
+
+#footer-section {
+  background: #202427;
+  color: white; }
+  #footer-section .left-side {
+    font-family: "Lora", serif;
+    font-size: 13px;
+    font-weight: 400; }
+    #footer-section .left-side .description {
+      padding-top: 20px;
+      padding-bottom: 30px; }
+    #footer-section .left-side .address {
+      padding-bottom: 10px; }
+    #footer-section .left-side .phone {
+      padding-bottom: 10px; }
+    #footer-section .left-side .email {
+      padding-bottom: 100px; }
+  #footer-section .news .title {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding-top: 120px;
+    padding-bottom: 20px; }
+  #footer-section .news .news-title {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    padding-bottom: 20px; }
+  #footer-section .news .subtitle {
+    font-family: "Lora", serif;
+    font-size: 13px;
+    padding-bottom: 20px; }
+  #footer-section .subscription .subscribe-title {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding-top: 120px;
+    padding-bottom: 20px; }
+  #footer-section .subscription form {
+    display: flex; }
+    #footer-section .subscription form input {
+      border-top-left-radius: 5px;
+      border-bottom-left-radius: 5px;
+      border: 0;
+      height: 40px;
+      padding-left: 15px; }
+    #footer-section .subscription form input:focus {
+      background-color: grey;
+      color: white; }
+    #footer-section .subscription form button {
+      background: #71B347;
+      border-color: transparent !important;
+      text-transform: uppercase;
+      color: white;
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 600;
+      border: solid 1px;
+      height: 40px;
+      width: 160px;
+      font-size: 13px; }
+  #footer-section .subscription .update {
+    padding-top: 15px;
+    font-family: "Lora", serif;
+    font-size: 13px; }
+  #footer-section .external {
+    background: #1D2124;
+    color: white; }
+    #footer-section .external .copyright-title {
+      font-family: "Lora", serif;
+      font-size: 13px;
+      padding-top: 15px;
+      padding-bottom: 15px; }
+    #footer-section .external .external-social-media-button {
+      padding-top: 15px;
+      display: flex;
+      justify-content: flex-end;
+      margin-right: 15px;
+      float: left; }
+
+@media (max-width: 575px) {
+  #footer-section .left-side {
+    font-size: 17px; }
+    #footer-section .left-side .email {
+      padding-bottom: 30px; }
+  #footer-section .subscription .subscribe-title {
+    padding-top: 0px;
+    text-align: center; }
+  #footer-section .subscription form input {
+    margin-left: 17px; }
+  #footer-section .subscription .update {
+    text-align: center; } }
+
+@media (min-width: 576px) and (max-width: 767px) {
+  #footer-section .left-side {
+    font-size: 17px; }
+    #footer-section .left-side .email {
+      padding-bottom: 30px; }
+  #footer-section .subscription .subscribe-title {
+    padding-top: 0px;
+    text-align: center; }
+  #footer-section .subscription form input {
+    margin-left: 190px; }
+  #footer-section .subscription .update {
+    text-align: center; }
+  #footer-section .news .title {
+    padding-top: 185px; }
+  #footer-section .external .padding {
+    padding-left: 170px; } }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #footer-section .news .news-title {
+    font-size: 13px;
+    padding-bottom: 10px; }
+  #footer-section .news .subtitle {
+    font-size: 11px; }
+  #footer-section .subscription form button {
+    width: 140px; }
+  #footer-section .external .copyright-title {
+    text-align: center; }
+  #footer-section .external .padding {
+    padding-left: 100px; } }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  #footer-section .left-side .description {
+    font-size: 20px; }
+  #footer-section .left-side .address {
+    font-size: 15px; }
+  #footer-section .left-side .phone {
+    font-size: 15px; }
+  #footer-section .left-side .email {
+    font-size: 15px;
+    padding-bottom: 55px; }
+  #footer-section .news .title {
+    padding-top: 95px; }
+  #footer-section .subscription .subscribe-title {
+    padding-top: 95px; }
+  #footer-section .subscription form input {
+    margin-left: 15px; }
+  #footer-section .external .copyright-title {
+    text-align: center; }
+  #footer-section .external .padding {
+    padding-left: 165px; } }
+
+@media (min-width: 1200px) {
+  #footer-section .padding {
+    padding-left: 30px; }
+  #footer-section .left-side .description {
+    font-size: 15px; }
+  #footer-section .left-side .address {
+    font-size: 13px; }
+  #footer-section .left-side .phone {
+    font-size: 13px; }
+  #footer-section .left-side .email {
+    font-size: 13px;
+    padding-bottom: 55px; }
+  #footer-section .news .title {
+    padding-top: 132px;
+    font-size: 17px; }
+  #footer-section .news .news-title {
+    font-size: 15px; }
+  #footer-section .news .subtitle {
+    font-size: 13px; }
+  #footer-section .subscription .subscribe-title {
+    padding-top: 132px;
+    font-size: 17px; }
+  #footer-section .subscription form input {
+    margin-left: 15px; }
+  #footer-section .external .copyright-title {
+    text-align: center; }
+  #footer-section .external .padding {
+    padding-left: 245px; } }
+
+#hero-section header {
+  width: 100%;
+  z-index: 2; }
+  #hero-section header nav {
+    width: 100%;
+    background-color: transparent; }
+    #hero-section header nav .logo {
+      margin-top: 15px; }
+    #hero-section header nav ul {
+      margin-left: 330px;
+      margin-top: 25px; }
+      #hero-section header nav ul li a {
+        float: left;
+        font-size: 17px;
+        font-weight: 600;
+        list-style: none;
+        margin-right: 10px;
+        color: white; }
+  #hero-section header .social-media {
+    display: flex;
+    justify-content: flex-end;
+    color: white; }
+    #hero-section header .social-media #search-button {
+      margin-right: 30px; }
+    #hero-section header .social-media-button {
+      float: left;
+      margin-right: 13px;
+      margin-top: 28px; }
+    #hero-section header .social-media button {
+      background: transparent;
+      text-transform: uppercase;
+      color: white;
+      margin-left: 35px;
+      margin-top: 20px;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 600;
+      border: solid 1px;
+      height: 40px;
+      width: 160px;
+      font-size: 13px; }
+      #hero-section header .social-media button .fa-paper-plane-o {
+        margin-left: 5px; }
+
+#hero-section .title-and-buttons {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column; }
+  #hero-section .title-and-buttons .buttons {
+    margin: 0 auto;
+    margin-top: 20px; }
+  #hero-section .title-and-buttons .first-title {
+    font-size: 13px;
+    color: white;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif; }
+  #hero-section .title-and-buttons .second-title {
+    font-size: 60px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif; }
+  #hero-section .title-and-buttons .third-title {
+    font-size: 15px;
+    color: white;
+    font-family: "Lora", serif; }
+  #hero-section .title-and-buttons .about-us-button {
+    background: #71B347;
+    text-transform: capitalize;
+    border-color: transparent !important;
+    margin-right: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    border: solid 1px;
+    height: 40px;
+    width: 160px;
+    font-size: 13px; }
+  #hero-section .title-and-buttons .presentation-button {
+    background: #1996CE;
+    border-color: transparent !important;
+    text-transform: capitalize;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    border: solid 1px;
+    height: 40px;
+    width: 160px;
+    font-size: 13px; }
+
+#hero-section .title-and-buttons-2 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column; }
+  #hero-section .title-and-buttons-2 .buttons {
+    margin: 0 auto;
+    margin-top: 20px; }
+  #hero-section .title-and-buttons-2 .first-title {
+    font-size: 13px;
+    color: white;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif; }
+  #hero-section .title-and-buttons-2 .second-title {
+    font-size: 60px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif; }
+  #hero-section .title-and-buttons-2 .third-title {
+    font-size: 15px;
+    color: white;
+    font-family: "Lora", serif; }
+  #hero-section .title-and-buttons-2 .mission-button {
+    background: #1996CE;
+    text-transform: capitalize;
+    border-color: transparent !important;
+    margin-right: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    border: solid 1px;
+    height: 40px;
+    width: 160px;
+    font-size: 13px; }
+  #hero-section .title-and-buttons-2 .award-button {
+    background: #71B347;
+    border-color: transparent !important;
+    text-transform: capitalize;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    border: solid 1px;
+    height: 40px;
+    width: 160px;
+    font-size: 13px; }
+
+#hero-section .title-and-buttons-3 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column; }
+  #hero-section .title-and-buttons-3 .buttons {
+    margin: 0 auto;
+    margin-top: 20px; }
+  #hero-section .title-and-buttons-3 .first-title {
+    font-size: 13px;
+    color: white;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif; }
+  #hero-section .title-and-buttons-3 .second-title {
+    font-size: 60px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif; }
+  #hero-section .title-and-buttons-3 .third-title {
+    font-size: 15px;
+    color: white;
+    font-family: "Lora", serif; }
+  #hero-section .title-and-buttons-3 .services-button {
+    background: #71B347;
+    text-transform: capitalize;
+    border-color: transparent !important;
+    margin-right: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    border: solid 1px;
+    height: 40px;
+    width: 160px;
+    font-size: 13px; }
+  #hero-section .title-and-buttons-3 .contact-button {
+    background: #1996CE;
+    border-color: transparent !important;
+    text-transform: capitalize;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    border: solid 1px;
+    height: 40px;
+    width: 160px;
+    font-size: 13px; }
+
+@media (max-width: 575px) {
+  #hero-section header nav .collapse {
+    background: grey;
+    position: relative;
+    z-index: 99999999999999999999; }
+  #hero-section header nav .navbar-toggler {
+    background: whitesmoke; }
+  #hero-section header nav a img {
+    height: 50px; }
+  #hero-section header nav .logo {
+    margin-top: 0px; }
+  #hero-section header nav ul {
+    margin-left: 160px; }
+  #hero-section header .social-media {
+    padding-left: 27px; }
+  #hero-section .carousel {
+    z-index: 1; }
+    #hero-section .carousel ol {
+      z-index: 9999; }
+    #hero-section .carousel .carousel-inner .carousel-item .carousel-caption {
+      display: block !important; }
+      #hero-section .carousel .carousel-inner .carousel-item .carousel-caption .title-and-buttons .first-title {
+        font-size: 10px;
+        z-index: 999; }
+      #hero-section .carousel .carousel-inner .carousel-item .carousel-caption .title-and-buttons .second-title {
+        font-size: 24px;
+        z-index: 999; }
+      #hero-section .carousel .carousel-inner .carousel-item .carousel-caption .title-and-buttons .third-title {
+        font-size: 10px;
+        z-index: 999; }
+      #hero-section .carousel .carousel-inner .carousel-item .carousel-caption .title-and-buttons .buttons {
+        z-index: 999; }
+        #hero-section .carousel .carousel-inner .carousel-item .carousel-caption .title-and-buttons .buttons .about-us-button {
+          width: 135px; }
+        #hero-section .carousel .carousel-inner .carousel-item .carousel-caption .title-and-buttons .buttons .presentation-button {
+          width: 135px; }
+      #hero-section .carousel .carousel-inner .carousel-item .carousel-caption .title-and-buttons-2 .first-title {
+        font-size: 10px;
+        z-index: 999; }
+      #hero-section .carousel .carousel-inner .carousel-item .carousel-caption .title-and-buttons-2 .second-title {
+        font-size: 24px;
+        z-index: 999; }
+      #hero-section .carousel .carousel-inner .carousel-item .carousel-caption .title-and-buttons-2 .third-title {
+        font-size: 10px;
+        z-index: 999; }
+      #hero-section .carousel .carousel-inner .carousel-item .carousel-caption .title-and-buttons-2 .buttons {
+        z-index: 999; }
+        #hero-section .carousel .carousel-inner .carousel-item .carousel-caption .title-and-buttons-2 .buttons .mission-button {
+          width: 135px; }
+        #hero-section .carousel .carousel-inner .carousel-item .carousel-caption .title-and-buttons-2 .buttons .award-button {
+          width: 135px; }
+      #hero-section .carousel .carousel-inner .carousel-item .carousel-caption .title-and-buttons-3 .first-title {
+        font-size: 10px;
+        z-index: 999; }
+      #hero-section .carousel .carousel-inner .carousel-item .carousel-caption .title-and-buttons-3 .second-title {
+        font-size: 24px;
+        z-index: 999; }
+      #hero-section .carousel .carousel-inner .carousel-item .carousel-caption .title-and-buttons-3 .third-title {
+        font-size: 10px;
+        z-index: 999; }
+      #hero-section .carousel .carousel-inner .carousel-item .carousel-caption .title-and-buttons-3 .buttons {
+        z-index: 999; }
+        #hero-section .carousel .carousel-inner .carousel-item .carousel-caption .title-and-buttons-3 .buttons .services-button {
+          width: 135px; }
+        #hero-section .carousel .carousel-inner .carousel-item .carousel-caption .title-and-buttons-3 .buttons .contact-button {
+          width: 135px; } }
+
+@media (min-width: 576px) and (max-width: 767px) {
+  #hero-section header nav .collapse {
+    background: grey;
+    position: relative;
+    z-index: 99999999999999999999; }
+  #hero-section header nav .navbar-toggler {
+    background: whitesmoke; }
+  #hero-section header nav a img {
+    height: 60px; }
+  #hero-section header .social-media {
+    padding-left: 190px; }
+  #hero-section .carousel {
+    z-index: 1; }
+    #hero-section .carousel ol {
+      z-index: 9999; }
+    #hero-section .carousel .carousel-inner .carousel-item .carousel-caption {
+      display: block !important; }
+    #hero-section .carousel .carousel-inner .carousel-item .first-title {
+      z-index: 999; }
+    #hero-section .carousel .carousel-inner .carousel-item .second-title {
+      z-index: 999; }
+    #hero-section .carousel .carousel-inner .carousel-item .third-title {
+      z-index: 999; }
+    #hero-section .carousel .carousel-inner .carousel-item .buttons {
+      z-index: 999; } }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #hero-section header nav .collapse {
+    background: #646464;
+    position: relative;
+    z-index: 999; }
+  #hero-section header nav .navbar-toggler {
+    background: whitesmoke; }
+  #hero-section header nav a img {
+    height: 60px; }
+  #hero-section header nav .social-media {
+    padding-left: 240px; }
+  #hero-section .carousel {
+    z-index: 1; } }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  #hero-section header nav ul {
+    margin-left: 60px; }
+    #hero-section header nav ul li a {
+      font-size: 14px; }
+  #hero-section header nav .social-media-button i {
+    font-size: 1em; } }
+
+@media (min-width: 1200px) {
+  #hero-section header nav ul {
+    margin-left: 250px; } }
