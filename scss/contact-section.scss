@@ -22,15 +22,16 @@
     }
     .phone{
         text-align: center;
+        padding-bottom: 80px;
         .icon{
-            font-size: 60px;
+            font-size: 50px;
             display: block;
         }
     }
     .map-marker{
         text-align: center;
         .icon{
-            font-size: 60px;
+            font-size: 50px;
             display: block;
         }
     }
@@ -41,12 +42,162 @@
             display: block;
         }
     }
+    .inputs{
+        padding-left: 205px;
+        .name-input{
+            width: 300px;
+            height: 40px;
+            margin-bottom: 25px;
+            padding-left: 10px;
+            border: 0;
+            border-radius: 7px;
+            color: #B9B8BC;
+        }
+        .email-input{
+            width: 300px;
+            height: 40px;
+            margin-left: 25px;
+            padding-left: 10px;
+            border: 0;
+            border-radius: 7px;
+            color: #B9B8BC;
+        }
+    }
+    .miau{
+        padding-left: 191px;
+        margin-bottom: 85px;
+        .message-input{
+            width: 625px;
+            height: 140px;
+            text-align: center;
+            border: 0;
+            border-radius: 7px;
+            color: #B9B8BC;
+        }
+    }
     button{
         background-color: #A4A8AC;
         border: #A4A8AC !important;
         border-radius: 7px;
+        margin-left: 191px;
+        margin-bottom: 80px;
         @include button;
     }
+}
+
+// Extra small devices
+@media (max-width: 575px)  { 
+    #contact-section{
+        .phone{
+            .text-icons{
+                font-size: 13px;
+            }
+            .icon{
+                font-size: 30px;
+            }
+        }
+        .map-marker{
+            .text-icons{
+                font-size: 13px;
+            }
+            .icon{
+                font-size: 30px;
+            }
+        }
+        .message{
+            .text-icons{
+                font-size: 13px;
+            }
+            .icon{
+                font-size: 30px;
+            }
+        }
+        .inputs{
+            padding-left: 50px;
+            .email-input{
+                width: 150px;
+            }
+            .name-input{
+                width: 150px;
+            }
+        } 
+        .miau{
+            padding-left: 38px;
+            margin-bottom: 45px;
+            .message-input{
+                width: 324px;
+            }
+        }
+        button{
+            margin-left: 38px;
+            margin-bottom: 60px;
+        }
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767px) { 
+    #contact-section{
+        .phone{
+            .text-icons{
+                font-size: 14px;
+            }
+            .icon{
+                font-size: 40px;
+            }
+        }
+        .map-marker{
+            .text-icons{
+                font-size: 14px;
+            }
+            .icon{
+                font-size: 40px;
+            }
+        }
+        .message{
+            .text-icons{
+                font-size: 14px;
+            }
+            .icon{
+                font-size: 40px;
+            }
+        }
+        .inputs{
+            padding-left: 50px;
+        } 
+        .miau{
+            padding-left: 38px;
+            margin-bottom: 45px;
+        }
+        button{
+            margin-left: 38px;
+        }
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991px) { 
+    #contact-section{
+        .inputs {
+            padding-left: 105px;
+        }
+        .miau{
+            padding-left: 93px;
+        }
+        button{
+            margin-left: 93px;
+        }
+    } 
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199px) { 
+    
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+    
 }
 
 #map-section{

@@ -22,7 +22,7 @@
                         font-weight: 600;
                         list-style : none;
                         margin-right: 10px;
-                        color : white;
+                        color : black;
                     }
                 }
             }
@@ -30,7 +30,7 @@
         .social-media{
             display: flex;
             justify-content: flex-end;
-            color : white;
+            color : black;
 
             #search-button{
                 margin-right: 30px;
@@ -43,7 +43,7 @@
             button{
                 background : transparent;
                 text-transform : uppercase;
-                color : white;
+                color : black;
                 margin-left: 35px;
                 margin-top: 20px;
                 @include button;
@@ -191,7 +191,6 @@
         header{
             nav{
                 .collapse{
-                    background: grey;
                     position: relative;
                     z-index: 99999999999999999999;
                 }
@@ -306,7 +305,6 @@
         header{
             nav{
                 .collapse{
-                    background: grey;
                     position: relative;
                     z-index: 99999999999999999999;
                 }
@@ -358,7 +356,6 @@
         header{
             nav{
                 .collapse{
-                    background: rgba(100,100,100,1);
                     position: relative;
                     z-index: 999;
                 }

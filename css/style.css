@@ -840,6 +840,8 @@
     padding-left: 170px; } }
 
 @media (min-width: 768px) and (max-width: 991px) {
+  #footer-section .left-side .email {
+    padding-bottom: 50px; }
   #footer-section .news .news-title {
     font-size: 13px;
     padding-bottom: 10px; }

@@ -70,30 +70,118 @@ body {
     font-size: 15px;
     padding-bottom: 30px; }
   #contact-section .phone {
-    text-align: center; }
+    text-align: center;
+    padding-bottom: 80px; }
     #contact-section .phone .icon {
-      font-size: 60px;
+      font-size: 50px;
       display: block; }
   #contact-section .map-marker {
     text-align: center; }
     #contact-section .map-marker .icon {
-      font-size: 60px;
+      font-size: 50px;
       display: block; }
   #contact-section .message {
     text-align: center; }
     #contact-section .message .icon {
       font-size: 40px;
       display: block; }
+  #contact-section .inputs {
+    padding-left: 205px; }
+    #contact-section .inputs .name-input {
+      width: 300px;
+      height: 40px;
+      margin-bottom: 25px;
+      padding-left: 10px;
+      border: 0;
+      border-radius: 7px;
+      color: #B9B8BC; }
+    #contact-section .inputs .email-input {
+      width: 300px;
+      height: 40px;
+      margin-left: 25px;
+      padding-left: 10px;
+      border: 0;
+      border-radius: 7px;
+      color: #B9B8BC; }
+  #contact-section .miau {
+    padding-left: 191px;
+    margin-bottom: 85px; }
+    #contact-section .miau .message-input {
+      width: 625px;
+      height: 140px;
+      text-align: center;
+      border: 0;
+      border-radius: 7px;
+      color: #B9B8BC; }
   #contact-section button {
     background-color: #A4A8AC;
     border: #A4A8AC !important;
     border-radius: 7px;
+    margin-left: 191px;
+    margin-bottom: 80px;
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
     border: solid 1px;
     height: 40px;
     width: 160px;
     font-size: 13px; }
+
+@media (max-width: 575px) {
+  #contact-section .phone .text-icons {
+    font-size: 13px; }
+  #contact-section .phone .icon {
+    font-size: 30px; }
+  #contact-section .map-marker .text-icons {
+    font-size: 13px; }
+  #contact-section .map-marker .icon {
+    font-size: 30px; }
+  #contact-section .message .text-icons {
+    font-size: 13px; }
+  #contact-section .message .icon {
+    font-size: 30px; }
+  #contact-section .inputs {
+    padding-left: 50px; }
+    #contact-section .inputs .email-input {
+      width: 150px; }
+    #contact-section .inputs .name-input {
+      width: 150px; }
+  #contact-section .miau {
+    padding-left: 38px;
+    margin-bottom: 45px; }
+    #contact-section .miau .message-input {
+      width: 324px; }
+  #contact-section button {
+    margin-left: 38px;
+    margin-bottom: 60px; } }
+
+@media (min-width: 576px) and (max-width: 767px) {
+  #contact-section .phone .text-icons {
+    font-size: 14px; }
+  #contact-section .phone .icon {
+    font-size: 40px; }
+  #contact-section .map-marker .text-icons {
+    font-size: 14px; }
+  #contact-section .map-marker .icon {
+    font-size: 40px; }
+  #contact-section .message .text-icons {
+    font-size: 14px; }
+  #contact-section .message .icon {
+    font-size: 40px; }
+  #contact-section .inputs {
+    padding-left: 50px; }
+  #contact-section .miau {
+    padding-left: 38px;
+    margin-bottom: 45px; }
+  #contact-section button {
+    margin-left: 38px; } }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #contact-section .inputs {
+    padding-left: 105px; }
+  #contact-section .miau {
+    padding-left: 93px; }
+  #contact-section button {
+    margin-left: 93px; } }
 
 #map-section {
   padding-left: 0;
@@ -209,6 +297,8 @@ body {
     padding-left: 170px; } }
 
 @media (min-width: 768px) and (max-width: 991px) {
+  #footer-section .left-side .email {
+    padding-bottom: 50px; }
   #footer-section .news .news-title {
     font-size: 13px;
     padding-bottom: 10px; }
@@ -288,11 +378,11 @@ body {
         font-weight: 600;
         list-style: none;
         margin-right: 10px;
-        color: white; }
+        color: black; }
   #hero-section header .social-media {
     display: flex;
     justify-content: flex-end;
-    color: white; }
+    color: black; }
     #hero-section header .social-media #search-button {
       margin-right: 30px; }
     #hero-section header .social-media-button {
@@ -302,7 +392,7 @@ body {
     #hero-section header .social-media button {
       background: transparent;
       text-transform: uppercase;
-      color: white;
+      color: black;
       margin-left: 35px;
       margin-top: 20px;
       font-family: "Montserrat", sans-serif;
@@ -454,7 +544,6 @@ body {
 
 @media (max-width: 575px) {
   #hero-section header nav .collapse {
-    background: grey;
     position: relative;
     z-index: 99999999999999999999; }
   #hero-section header nav .navbar-toggler {
@@ -521,7 +610,6 @@ body {
 
 @media (min-width: 576px) and (max-width: 767px) {
   #hero-section header nav .collapse {
-    background: grey;
     position: relative;
     z-index: 99999999999999999999; }
   #hero-section header nav .navbar-toggler {
@@ -547,7 +635,6 @@ body {
 
 @media (min-width: 768px) and (max-width: 991px) {
   #hero-section header nav .collapse {
-    background: #646464;
     position: relative;
     z-index: 999; }
   #hero-section header nav .navbar-toggler {
