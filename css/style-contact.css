@@ -140,16 +140,20 @@ body {
   #contact-section .message .icon {
     font-size: 30px; }
   #contact-section .inputs {
-    padding-left: 50px; }
+    padding-left: 50px;
+    color: black; }
     #contact-section .inputs .email-input {
-      width: 150px; }
+      width: 150px;
+      color: black; }
     #contact-section .inputs .name-input {
-      width: 150px; }
+      width: 150px;
+      color: black; }
   #contact-section .miau {
     padding-left: 38px;
     margin-bottom: 45px; }
     #contact-section .miau .message-input {
-      width: 324px; }
+      width: 324px;
+      color: black; }
   #contact-section button {
     margin-left: 38px;
     margin-bottom: 60px; } }
@@ -230,7 +234,8 @@ body {
       border-bottom-left-radius: 5px;
       border: 0;
       height: 40px;
-      padding-left: 15px; }
+      padding-left: 15px;
+      margin-bottom: 10px; }
     #footer-section .subscription form input:focus {
       background-color: grey;
       color: white; }
@@ -247,8 +252,12 @@ body {
       height: 40px;
       width: 160px;
       font-size: 13px; }
+  #footer-section .subscription .checkbox {
+    font-size: 14px;
+    text-align: center; }
+  #footer-section .subscription .checkbox1 {
+    margin-left: 15px; }
   #footer-section .subscription .update {
-    padding-top: 15px;
     font-family: "Lora", serif;
     font-size: 13px; }
   #footer-section .external {
@@ -277,7 +286,12 @@ body {
   #footer-section .subscription form input {
     margin-left: 17px; }
   #footer-section .subscription .update {
-    text-align: center; } }
+    text-align: center; }
+  #footer-section .subscription .checkbox {
+    font-size: 14px;
+    text-align: center; }
+  #footer-section .subscription .checkbox1 {
+    margin-left: 17px; } }
 
 @media (min-width: 576px) and (max-width: 767px) {
   #footer-section .left-side {
@@ -291,6 +305,11 @@ body {
     margin-left: 190px; }
   #footer-section .subscription .update {
     text-align: center; }
+  #footer-section .subscription .checkbox {
+    font-size: 14px;
+    text-align: center; }
+  #footer-section .subscription .checkbox1 {
+    margin-left: 190px; }
   #footer-section .news .title {
     padding-top: 185px; }
   #footer-section .external .padding {
@@ -306,6 +325,11 @@ body {
     font-size: 11px; }
   #footer-section .subscription form button {
     width: 140px; }
+  #footer-section .subscription .checkbox {
+    font-size: 11px;
+    text-align: center; }
+  #footer-section .subscription .checkbox1 {
+    margin-left: -18px; }
   #footer-section .external .copyright-title {
     text-align: center; }
   #footer-section .external .padding {
@@ -326,6 +350,11 @@ body {
   #footer-section .subscription .subscribe-title {
     padding-top: 95px; }
   #footer-section .subscription form input {
+    margin-left: 15px; }
+  #footer-section .subscription .checkbox {
+    font-size: 14px;
+    text-align: center; }
+  #footer-section .subscription .checkbox1 {
     margin-left: 15px; }
   #footer-section .external .copyright-title {
     text-align: center; }

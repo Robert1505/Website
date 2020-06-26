@@ -213,9 +213,11 @@
       #hero-section .carousel .carousel-inner .carousel-item .carousel-caption .title-and-buttons .buttons {
         z-index: 999; }
         #hero-section .carousel .carousel-inner .carousel-item .carousel-caption .title-and-buttons .buttons .about-us-button {
-          width: 135px; }
+          width: 123px;
+          height: 35px; }
         #hero-section .carousel .carousel-inner .carousel-item .carousel-caption .title-and-buttons .buttons .presentation-button {
-          width: 135px; }
+          width: 123px;
+          height: 35px; }
       #hero-section .carousel .carousel-inner .carousel-item .carousel-caption .title-and-buttons-2 .first-title {
         font-size: 10px;
         z-index: 999; }
@@ -228,9 +230,11 @@
       #hero-section .carousel .carousel-inner .carousel-item .carousel-caption .title-and-buttons-2 .buttons {
         z-index: 999; }
         #hero-section .carousel .carousel-inner .carousel-item .carousel-caption .title-and-buttons-2 .buttons .mission-button {
-          width: 135px; }
+          width: 123px;
+          height: 35px; }
         #hero-section .carousel .carousel-inner .carousel-item .carousel-caption .title-and-buttons-2 .buttons .award-button {
-          width: 135px; }
+          width: 123px;
+          height: 35px; }
       #hero-section .carousel .carousel-inner .carousel-item .carousel-caption .title-and-buttons-3 .first-title {
         font-size: 10px;
         z-index: 999; }
@@ -243,9 +247,11 @@
       #hero-section .carousel .carousel-inner .carousel-item .carousel-caption .title-and-buttons-3 .buttons {
         z-index: 999; }
         #hero-section .carousel .carousel-inner .carousel-item .carousel-caption .title-and-buttons-3 .buttons .services-button {
-          width: 135px; }
+          width: 123px;
+          height: 35px; }
         #hero-section .carousel .carousel-inner .carousel-item .carousel-caption .title-and-buttons-3 .buttons .contact-button {
-          width: 135px; } }
+          width: 123px;
+          height: 35px; } }
 
 @media (min-width: 576px) and (max-width: 767px) {
   #hero-section header nav .collapse {
