@@ -43,7 +43,7 @@
         }
     }
     .inputs{
-        padding-left: 205px;
+        padding-left: 485px;
         .name-input{
             width: 300px;
             height: 40px;
@@ -51,7 +51,7 @@
             padding-left: 10px;
             border: 0;
             border-radius: 7px;
-            color: #B9B8BC;
+            color: black;
         }
         .email-input{
             width: 300px;
@@ -60,11 +60,11 @@
             padding-left: 10px;
             border: 0;
             border-radius: 7px;
-            color: #B9B8BC;
+            color: black;
         }
     }
     .miau{
-        padding-left: 191px;
+        padding-left: 472px;
         margin-bottom: 85px;
         .message-input{
             width: 625px;
@@ -72,14 +72,14 @@
             text-align: center;
             border: 0;
             border-radius: 7px;
-            color: #B9B8BC;
+            color: black;
         }
     }
     button{
         background-color: #A4A8AC;
         border: #A4A8AC !important;
         border-radius: 7px;
-        margin-left: 191px;
+        margin-left: 472px;
         margin-bottom: 80px;
         @include button;
     }
@@ -107,6 +107,7 @@
         .message{
             .text-icons{
                 font-size: 13px;
+                word-break: break-all;
             }
             .icon{
                 font-size: 30px;
@@ -196,12 +197,32 @@
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) and (max-width: 1199px) { 
-    
+    #contact-section{
+        .inputs {
+            padding-left: 195px;
+        }
+        .miau{
+            padding-left: 182px;
+        }
+        button{
+            margin-left: 182px;
+        }
+    }
 }
 
 // Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { 
-    
+@media (min-width: 1200px) and (max-width: 1366px) { 
+    #contact-section{
+        .inputs {
+            padding-left: 367px;
+        }
+        .miau{
+            padding-left: 353px;
+        }
+        button{
+            margin-left: 353px;
+        }
+    }
 }
 
 #map-section{

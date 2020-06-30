@@ -86,7 +86,7 @@ body {
       font-size: 40px;
       display: block; }
   #contact-section .inputs {
-    padding-left: 205px; }
+    padding-left: 485px; }
     #contact-section .inputs .name-input {
       width: 300px;
       height: 40px;
@@ -94,7 +94,7 @@ body {
       padding-left: 10px;
       border: 0;
       border-radius: 7px;
-      color: #B9B8BC; }
+      color: black; }
     #contact-section .inputs .email-input {
       width: 300px;
       height: 40px;
@@ -102,9 +102,9 @@ body {
       padding-left: 10px;
       border: 0;
       border-radius: 7px;
-      color: #B9B8BC; }
+      color: black; }
   #contact-section .miau {
-    padding-left: 191px;
+    padding-left: 472px;
     margin-bottom: 85px; }
     #contact-section .miau .message-input {
       width: 625px;
@@ -112,12 +112,12 @@ body {
       text-align: center;
       border: 0;
       border-radius: 7px;
-      color: #B9B8BC; }
+      color: black; }
   #contact-section button {
     background-color: #A4A8AC;
     border: #A4A8AC !important;
     border-radius: 7px;
-    margin-left: 191px;
+    margin-left: 472px;
     margin-bottom: 80px;
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
@@ -136,7 +136,8 @@ body {
   #contact-section .map-marker .icon {
     font-size: 30px; }
   #contact-section .message .text-icons {
-    font-size: 13px; }
+    font-size: 13px;
+    word-break: break-all; }
   #contact-section .message .icon {
     font-size: 30px; }
   #contact-section .inputs {
@@ -186,6 +187,22 @@ body {
     padding-left: 93px; }
   #contact-section button {
     margin-left: 93px; } }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  #contact-section .inputs {
+    padding-left: 195px; }
+  #contact-section .miau {
+    padding-left: 182px; }
+  #contact-section button {
+    margin-left: 182px; } }
+
+@media (min-width: 1200px) and (max-width: 1366px) {
+  #contact-section .inputs {
+    padding-left: 367px; }
+  #contact-section .miau {
+    padding-left: 353px; }
+  #contact-section button {
+    margin-left: 353px; } }
 
 #map-section {
   padding-left: 0;
@@ -329,7 +346,7 @@ body {
     font-size: 11px;
     text-align: center; }
   #footer-section .subscription .checkbox1 {
-    margin-left: -18px; }
+    margin-left: 0px; }
   #footer-section .external .copyright-title {
     text-align: center; }
   #footer-section .external .padding {
