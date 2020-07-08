@@ -20,7 +20,7 @@
         <!--NEW MENU-->
 
         <nav class="navbar navbar-expand-lg navbar-light">
-          <a class="navbar-brand logo" href="https://marketingmanagement5.000webhostapp.com/Index.php"><img src = "img/logo.png" height="70"/></a>
+          <a class="navbar-brand logo" href="Index.php"><img src = "img/logo.png" height="70"/></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -28,7 +28,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                  <a class="nav-link" href="https://marketingmanagement5.000webhostapp.com/Index.php">Home</a>
+                  <a class="nav-link" href="Index.php">Home</a>
                 </li>
                 <li class="nav-item active">
                   <a class="nav-link" href="#">About Us</a>
@@ -132,14 +132,16 @@
         $message = $_POST["message"];
         $sql = "INSERT INTO contact(name, email, message) VALUES('".$name."','".$email."','".$message."')";
         $to = "patainearobertpp@gmail.com";
-        if(isset($_POST["buton"]) && $email != "" && $name != "" && $message != ""){
-          if($connect->query($sql) === true){
-            echo "<div class = 'error1'>"."Mesajul a fost salvat"."</div>";
-            mail($to, "Website Message", $message);
+        if(isset($_POST["buton"])){
+          if( $email != "" && $name != "" && $message != ""){
+            if($connect->query($sql) === true){
+              echo "<div class = 'error1'>"."Mesajul a fost salvat"."</div>";
+              mail($to, "Website Message", $message);
+            }
           }
-        }
-        else{
-          echo "<div class = 'error2'>"."Toate campurile sunt obligatorii"."</div>";
+          else{
+            echo "<div class = 'error2'>"."Toate campurile sunt obligatorii"."</div>";
+          }
         }
       ?>
     </section>

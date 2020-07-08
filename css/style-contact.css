@@ -53,6 +53,14 @@ body {
 
 #contact-section {
   background-color: #F7F7F7; }
+  #contact-section .error1 {
+    color: limegreen;
+    padding-left: 660px;
+    font-weight: 600; }
+  #contact-section .error2 {
+    color: red;
+    padding-left: 660px;
+    font-weight: 600; }
   #contact-section .title {
     font-family: 'Lato', sans-serif;
     text-align: center;
@@ -157,7 +165,11 @@ body {
       color: black; }
   #contact-section button {
     margin-left: 38px;
-    margin-bottom: 60px; } }
+    margin-bottom: 60px; }
+  #contact-section .error1 {
+    padding-left: 80px; }
+  #contact-section .error2 {
+    padding-left: 80px; } }
 
 @media (min-width: 576px) and (max-width: 767px) {
   #contact-section .phone .text-icons {
@@ -178,7 +190,11 @@ body {
     padding-left: 38px;
     margin-bottom: 45px; }
   #contact-section button {
-    margin-left: 38px; } }
+    margin-left: 38px; }
+  #contact-section .error1 {
+    padding-left: 250px; }
+  #contact-section .error2 {
+    padding-left: 250px; } }
 
 @media (min-width: 768px) and (max-width: 991px) {
   #contact-section .inputs {
@@ -186,7 +202,11 @@ body {
   #contact-section .miau {
     padding-left: 93px; }
   #contact-section button {
-    margin-left: 93px; } }
+    margin-left: 93px; }
+  #contact-section .error1 {
+    padding-left: 275px; }
+  #contact-section .error2 {
+    padding-left: 275px; } }
 
 @media (min-width: 992px) and (max-width: 1199px) {
   #contact-section .inputs {
@@ -194,7 +214,11 @@ body {
   #contact-section .miau {
     padding-left: 182px; }
   #contact-section button {
-    margin-left: 182px; } }
+    margin-left: 182px; }
+  #contact-section .error1 {
+    padding-left: 380px; }
+  #contact-section .error2 {
+    padding-left: 380px; } }
 
 @media (min-width: 1200px) and (max-width: 1366px) {
   #contact-section .inputs {
@@ -202,7 +226,11 @@ body {
   #contact-section .miau {
     padding-left: 353px; }
   #contact-section button {
-    margin-left: 353px; } }
+    margin-left: 353px; }
+  #contact-section .error1 {
+    padding-left: 540px; }
+  #contact-section .error2 {
+    padding-left: 540px; } }
 
 #map-section {
   padding-left: 0;
