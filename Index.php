@@ -20,7 +20,7 @@
         <!--NEW MENU-->
 
         <nav class="navbar navbar-expand-lg navbar-light">
-          <a class="navbar-brand logo" href="#"><img src = "img/logo.png" height="70"/></a>
+          <a class="navbar-brand logo" href="https://marketingmanagement5.000webhostapp.com/Index.php"><img src = "img/logo.png" height="70"/></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -28,7 +28,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                  <a class="nav-link" href="#">Home</a>
+                  <a class="nav-link" href="https://marketingmanagement5.000webhostapp.com/Index.php">Home</a>
                 </li>
                 <li class="nav-item active">
                   <a class="nav-link" href="#">About Us</a>
@@ -43,7 +43,7 @@
                   <a class="nav-link" href="#">News</a>
                 </li>
                 <li class="nav-item active">
-                  <a class="nav-link" href="#">Contact Us</a>
+                  <a class="nav-link" href="https://marketingmanagement5.000webhostapp.com/contact.php">Contact Us</a>
                 </li>
               </ul>
             <form class="form-inline my-2 my-lg-0">
@@ -698,13 +698,26 @@
           <div class = "subscribe-title">
             Subscribe
           </div>
-            <form>
-              <input type="email" placeholder="Email Address"/>
-              <button class = "hvr-grow">
+            <form action = "Index.php" method = "POST">
+              <input type="email" placeholder="Email Address" name = "email"/>
+              <button class = "hvr-grow" type = "submit">
                 <i class="fa fa-envelope-o" aria-hidden="true"></i>
                 Subscribe
               </button>
             </form>
+            <?php
+              $server = "localhost";
+              $user = "root";
+              $pass = "";
+              $db = "website";
+
+              $email = $_POST["email"];
+              $connect = new mysqli($server, $user, $pass, $db);
+              $sql = "INSERT INTO newsletter(email) VALUES ('".$email."')";
+              if($connect->query($sql) === true){
+                echo "Mesajul a fost salvat";
+              }
+            ?>
           <div class = "update">
             Get latest updates and offers.
           </div>
@@ -741,6 +754,9 @@
     <script src = "js/purecounter_vanilla.js"></script>
     <script src = "js/progressbar.min.js"></script>
     <script>
+      nume = "radu";
+      salut = "salut ma numesc '"+ nume + "' si am 10 ani";
+      console.log(salut);
       $('.carousel').carousel();
 
       var circle = new ProgressBar.Circle('#profit', {

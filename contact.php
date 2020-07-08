@@ -20,7 +20,7 @@
         <!--NEW MENU-->
 
         <nav class="navbar navbar-expand-lg navbar-light">
-          <a class="navbar-brand logo" href="#"><img src = "img/logo.png" height="70"/></a>
+          <a class="navbar-brand logo" href="https://marketingmanagement5.000webhostapp.com/Index.php"><img src = "img/logo.png" height="70"/></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -28,7 +28,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                  <a class="nav-link" href="#">Home</a>
+                  <a class="nav-link" href="https://marketingmanagement5.000webhostapp.com/Index.php">Home</a>
                 </li>
                 <li class="nav-item active">
                   <a class="nav-link" href="#">About Us</a>
@@ -107,16 +107,41 @@
           </div>
         </div>
       </div>
-      <div class = "row inputs">
-        <input class = "name-input" placeholder = "Name"/>
-        <input class = "email-input" type="email" placeholder = "Email"/>
-      </div>
-      <div class = "miau">
-        <input class = "message-input" placeholder = "Message"/>
-      </div>
-      <button class = "hvr-grow">
-        Send Message
-      </button>
+      <form action = "contact.php" method = "POST">
+        <div class = "row inputs">
+          <input class = "name-input" placeholder = "Name" name = "name"/>
+          <input class = "email-input" type="email" placeholder = "Email"  name = "email"/>
+        </div>
+        <div class = "miau">
+          <input class = "message-input" placeholder = "Message"  name = "message"/>
+        </div>
+        <button class = "hvr-grow" type = "submit" name = "buton">
+          Send Message
+        </button>
+      </form>
+      <?php
+        ini_set('display_errors',0);
+        $server = "localhost";
+        $user = "id14263776_marketingmanagement5";
+        $pass = "Dorel@123456";
+        $db = "id14263776_website";
+
+        $connect = new mysqli($server, $user, $pass, $db);
+        $email = $_POST["email"];
+        $name = $_POST["name"];
+        $message = $_POST["message"];
+        $sql = "INSERT INTO contact(name, email, message) VALUES('".$name."','".$email."','".$message."')";
+        $to = "patainearobertpp@gmail.com";
+        if(isset($_POST["buton"]) && $email != "" && $name != "" && $message != ""){
+          if($connect->query($sql) === true){
+            echo "<div class = 'error1'>"."Mesajul a fost salvat"."</div>";
+            mail($to, "Website Message", $message);
+          }
+        }
+        else{
+          echo "<div class = 'error2'>"."Toate campurile sunt obligatorii"."</div>";
+        }
+      ?>
     </section>
     <!--ENDING CONTACT SECTION-->
 

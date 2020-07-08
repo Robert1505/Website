@@ -1,6 +1,16 @@
 #contact-section{
     background-color: #F7F7F7;
 
+    .error1{
+        color: limegreen;
+        padding-left: 660px;
+        font-weight: 600;
+    }
+    .error2{
+        color: red;
+        padding-left: 660px;
+        font-weight: 600;
+    }
     .title{
         font-family: 'Lato', sans-serif;
         text-align: center;
@@ -137,6 +147,12 @@
             margin-left: 38px;
             margin-bottom: 60px;
         }
+        .error1{
+            padding-left: 80px;
+        }
+        .error2{
+            padding-left: 80px;
+        }
     }
 }
 
@@ -177,6 +193,12 @@
         button{
             margin-left: 38px;
         }
+        .error1{
+            padding-left: 250px;
+        }
+        .error2{
+            padding-left: 250px;
+        }
     }
 }
 
@@ -191,6 +213,12 @@
         }
         button{
             margin-left: 93px;
+        }
+        .error1{
+            padding-left: 275px;
+        }
+        .error2{
+            padding-left: 275px;
         }
     } 
 }
@@ -207,6 +235,12 @@
         button{
             margin-left: 182px;
         }
+        .error1{
+            padding-left: 380px;
+        }
+        .error2{
+            padding-left: 380px;
+        }
     }
 }
 
@@ -221,6 +255,12 @@
         }
         button{
             margin-left: 353px;
+        }
+        .error1{
+            padding-left: 540px;
+        }
+        .error2{
+            padding-left: 540px;
         }
     }
 }
